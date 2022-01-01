@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_battle_ai_abilities_usage_template_names>
+<root>
+<edit_uuid>ae8b716a-a2b0-4ed1-b48e-29badfdae009</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{f2cb11f8-4d9b-4ac8-b0f9-6834d32be8b9}</field_uuid>
+<primary_key>1</primary_key>
+<name>ai_ability_usage_template_key</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{086e1791-ceb5-4fa8-8fd9-7e2a63073819}</field_uuid>
+<primary_key>0</primary_key>
+<name>factor_bias</name>
+<field_type>double</field_type>
+<required>1</required>
+<default_value>1</default_value>
+<field_description>This is how much we multiply the total score by to find a resulting score. This is for an overall balance for each template, so that we can tweak a template to be used fore / less frequently</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

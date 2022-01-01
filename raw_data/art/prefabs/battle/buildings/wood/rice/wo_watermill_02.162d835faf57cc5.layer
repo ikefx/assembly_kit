@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="162d83dc2f782ec" name="bamboo">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="162d887c6b4ad9e">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.13774347 -1.35817277 1.25260305" rotation="0 138.350998 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="162d884ae47ad4b">
+      <ECPrefab key="bamboo_watermill" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.157653809 -1.8636204 2.01437378" rotation="0 180.660172 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="162d88691fdad90">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="3.35025334 -1.82880402 -0.779715061" rotation="-0.919561982 163.194122 -0.655834734" scale="0.999999404 0.999999762 0.999999344" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="162d8f0ad7a2b56">
+      <ECBuilding key="3k_cityprop_bamboo_bridge_wide_3b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.08276367 0.38306725 0.638504028" rotation="-0.208589777 -85.294136 0.7548998" scale="1.00000012 0.999998868 0.999999344" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_cityprop_bamboo_bridge_wide_3b"/>
+    </entity>
+    <entity id="166768bff5d1328">
+      <ECBuilding key="soft_collision_object" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.34022522 0.999998927 3.02587891" rotation="0 90 0" scale="0.543864906 1 1.05640292" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="soft_collision_object"/>
+    </entity>
+    <entity id="168a51502c4257f">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4.05534077 -2.26727462 -2.97271204" rotation="-0.919561982 163.194122 -0.655834734" scale="0.999999762 0.999999762 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168a51523e62586">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4.52589083 -2.79922771 -5.16410446" rotation="-0.0571140386 168.463226 -2.24042487" scale="1 0.999999642 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="162d83e04ea82ed" name="buildings">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="162d849fb9487fc" name="rice">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="162d83dc2f782ec">
+        <to id="162d887c6b4ad9e"/>
+        <to id="162d884ae47ad4b"/>
+        <to id="162d88691fdad90"/>
+        <to id="162d8f0ad7a2b56"/>
+        <to id="166768bff5d1328"/>
+        <to id="168a51502c4257f"/>
+        <to id="168a51523e62586"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

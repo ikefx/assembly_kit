@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b881941993e9">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_a"/>
+      <ECTransform position="0.220914871 6.5012188 -1.12883735" rotation="0 35.4104118 0" scale="0.762149215 0.611663818 0.691925287" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b881941993ea" name="3k_ard_rock01_parent_a">
+      <ECBuilding key="3k_ard_rock01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.67266965 0 -0.135920763" rotation="0 -21.9999905 0" scale="0.870692849 1.17857039 1.17856979" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_ard_rock01"/>
+    </entity>
+    <entity id="168b881941993eb" name="3k_ard_rock04_child">
+      <ECBuilding key="3k_ard_rock04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.663942277 5.11460876 -0.0219438076" rotation="-62.2602997 259.71283 -121.994461" scale="0.820649087 1.00114763 1.35050106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_ard_rock04"/>
+    </entity>
+    <entity id="168b881941993ec">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_a"/>
+      <ECTransform position="2.73256564 5.21187019 0.496042609" rotation="0 161.780182 0" scale="1.03016162 0.777510524 0.806794882" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b881941993ed">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_b"/>
+      <ECTransform position="3.38789034 5.30322742 0.114000678" rotation="-6.05362749 45.0769043 -14.0092344" scale="0.546433866 0.468520045 0.553632796" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b881941a93ee">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_c"/>
+      <ECTransform position="4.51257801 2.12415814 -0.517955184" rotation="0 264.209198 0" scale="0.672278166 0.669886053 0.904986799" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b881941a93ef">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_a"/>
+      <ECTransform position="3.69062614 2.55357146 -1.33970642" rotation="-63.9961243 85.7071762 -81.6255264" scale="0.479989737 0.495134503 0.635058522" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b881941a93f0">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_b"/>
+      <ECTransform position="0.517716885 6.54725981 -0.493083954" rotation="4.55062723 190.347549 347.738708" scale="0.850011528 0.647714376 0.646896064" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b881941993ea">
+        <to id="168b881941993e9"/>
+        <to id="168b881941993eb"/>
+        <to id="168b881941993ec"/>
+        <to id="168b881941993ed"/>
+        <to id="168b881941a93ee"/>
+        <to id="168b881941a93ef"/>
+        <to id="168b881941a93f0"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

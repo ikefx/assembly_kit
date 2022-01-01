@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="1685b4b1f909684">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_battlecrack/cty_stone_floor_impactcrater_decal_01.rigid_model_v2" parallax_scale="0.119999997" tiling="0" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0 0" rotation="-46.8882904 -85.4459381 47.2140121" scale="2.0660882 1 2.06608915" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1685b4b1f909685">
+      <ECVFX vfx="3k_main_enviro_incense_smoke_square" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="0 0 0" rotation="0 4.00000048 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1685b4b1f909686">
+      <ECSoundMarker key="Sound_Environment_Prop_Smelter_Fire"/>
+      <ECTransform position="0 0 0" rotation="0 88.0000153 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="1685b4b1f909687">
+      <ECBuilding key="3k_cityprop_metalorel01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.000418022275 -0.243290424 0" rotation="0 130.983078 0" scale="0.552047491 0.744745672 0.552047491" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_cityprop_metalorel01"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

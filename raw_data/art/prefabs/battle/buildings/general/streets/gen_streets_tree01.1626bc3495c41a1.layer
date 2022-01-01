@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="32">
+  <entities>
+    <entity id="1626bc3495c419e">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_trim/cty_stone_floor_trim_planter_decal.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.113937259 2.38418579e-07 0.0769931078" rotation="0 0 0" scale="4 1 4"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1626bc3495c41a0">
+      <ECVegetation key="trees/shrub_magnolia/shrub_magnolia_a"/>
+      <ECTransform position="0.113937259 1.1920929e-06 0.0769931078" rotation="0 125.999992 0" scale="0.5 0.5 0.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1626be690a9bf5c">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_a"/>
+      <ECTransform position="-0.372700214 0 -0.286036491" rotation="0 125.999992 0" scale="0.5 0.5 0.5"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1626be70919bf5d">
+      <ECVegetation key="trees/shrub_branch/tree_shrub_brokenbranch_c"/>
+      <ECTransform position="1.4025234 -4.7683713e-07 1.0635258" rotation="0 125.999992 0" scale="0.368811935 0.368811935 0.368811876"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="164560f1cffd97a">
+      <ECVFX vfx="3k_main_obj_lantern_glow" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.00524902344 2.25025558 0.143920898" rotation="0 266 0" scale="2 2 2" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164560f1d00d97c">
+      <ECVFX vfx="3k_main_enviro_fire_flies" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0.0582275391 3.11833954 0.152709961" rotation="0 266 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164560f1d00d97d">
+      <ECBuilding key="3k_prop_city_streetlight_08" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.00732421875 0 0.102844238" rotation="0 -0.999984264 0" scale="2 2 2" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_city_streetlight_08"/>
+    </entity>
+    <entity id="164b35f9cb5b873">
+      <ECSoundMarker key="Sound_Environment_Fire_Lantern"/>
+      <ECTransform position="0.0226174891 2.54048324 0.221366405" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

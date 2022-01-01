@@ -1,0 +1,73 @@
+<configuration>
+  <item key="path">
+    <item key="battle">
+      <item key="prefab">art/prefabs/battle</item>
+      <item key="decal">RigidModels/decals</item>
+      <item key="prop">RigidModels,vfx/models,VariantMeshes/_VariantModels</item>
+      <item key="environment">Weather/default_battle.environment</item>
+      <item key="building_raw">art/buildings</item>
+	  <item key="building_raw_composite">art/composite_buildings</item>
+      <item key="building_working">RigidModels/buildings</item>
+	  <item key="deployment_zone">terrain/deployment</item>
+    </item>
+    <item key="campaign">
+      <item key="prefab">art/campaign/prefabs</item>
+      <item key="decal">RigidModels/campaign/decals</item>
+      <item key="prop">RigidModels/campaign</item>
+      <item key="environment">Weather/default_campaign.environment</item>
+    </item>
+    <item key="">
+      <item key="composite_scene">composite_scene</item>
+    </item>
+    <item key="grass">terrain/vegetation/battle/grass</item>
+    <item key="vegetation">BattleTerrain/vegetation</item>
+    <item key="vfx">vfx</item>
+    <item key="layout">art/layouts</item>
+  </item>
+  <item key="faction">
+    <item key="Blockout" prefix="blk" prefab_path="blk" default="true" />
+  </item>
+  <item key="gridsnap">
+    <item key="grid_def_spacing">1,2,4,5,8,10,16,20,32,40,50,64,100,128,256</item>
+    <item key="grid_rotation">0,2,5,10,15,30,45,60,90</item>
+    <item key="grid_snap_def_radius">1,2,5,10,20</item>
+    <item key="grid_angle_snap_def_spacing">0,2,5,10,15,30,45,60,90</item>
+    <item key="grid_angle_snap_def_radius">1,2,5,10,20</item>
+	<item key="scale_snap_interval">0.1,0.5,1,5,10</item>
+  </item>
+  <item key="project">
+	<item key="duplication_test_rot">0.01</item>
+    <item key="tile">
+      <item key="size" min="1" max="64"/>
+      <item key="terrain_height" battle="0" campaign="0" />
+      <item key="triangle_density" battle="128" campaign="128" min="1" max="256" />
+      <item key="textures" battle="grass0,grass1,dirt0,dirt1,forest0,,," campaign="grass_1,grass_2,arid_1,arid_2" />
+      <item key="normal_strength" battle="2" campaign="1000" />
+      <item key="default_climate" battle="default" campaign="default" />
+	  <item key="river_material" battle="materials/campaign_water_plane_default.xml.material" campaign="materials/campaign_water_plane_default.xml.material" />
+	  <item key="duplication_test_dist" battle="0.1" campaign="0.1"/>
+    </item>
+    <item key="tile_map">
+      <item key="pixels_per_tile" lf_main="8" lf_sea="2" lf_main_large_battle="4" blend="4" />
+	  <item key="duplication_test_dist" battle="0.001" campaign="0.001"/>
+    </item>
+    <item key="prefab">
+      <item key="terrain_texture" battle="grass01" campaign="grass_a0" />
+	  <item key="duplication_test_dist" battle="0.1" campaign="0.1"/>
+    </item>
+  </item>
+  <item key="rigid_model">
+	<item key="box">RigidModels/Tools/flat_color_cube.wsmodel</item>
+    <item key="sphere">RigidModels/debuggeometry/sphere.rigid_model_v2</item>
+	<item key="marker">RigidModels/Tools/marker.rigid_model_v2</item>
+	<!-- models for units -->
+    <item key="infantry">RigidModels/UI/infantry_proxy.rigid_model_v2</item>
+    <item key="cavalry">RigidModels/UI/cavalry_proxy.rigid_model_v2</item>
+    <item key="artillery">RigidModels/UI/artillery_proxy.rigid_model_v2</item>
+    <item key="centre_front_arrow">UI/3DUI/models/default/proxy_facing_arrow.rigid_model_v2</item>
+  </item>
+  <item key="material">
+	<item key="water_mesh_default">materials/battle_standing_water.xml.material</item>
+  </item>
+  <item key="water_mesh_ground_type">shallow_water</item>
+</configuration>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="1629553ed996d60">
+      <ECPrefab key="global_barricade_2xsmall"/>
+      <ECTransform position="-2.44970703 0.007137537 -5.90359497" rotation="-39.2617836 90.245491 -39.5105515" scale="0.999999106 0.99999994 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1629553ed9d6d6c">
+      <ECPrefab key="global_barricade_2xsmall"/>
+      <ECTransform position="-2.52527618 0 6.05703735" rotation="10.6629362 92.7700043 10.631052" scale="0.999999404 0.99999994 0.999999344" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1629553ed9e6d73">
+      <ECPrefab key="gen_cargo02"/>
+      <ECTransform position="0.935112 0.00519043207 2.89648438" rotation="0.104556531 181.845322 359.971802" scale="0.999999881 0.999999881 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1629553eda16d87">
+      <ECBuilding key="3k_set01_guardtower" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.77559662 0.00519043207 -0.086151123" rotation="17.4457188 -89.7529144 -17.6041908" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id=""/>
+    </entity>
+    <entity id="1629553eda16d88">
+      <ECPrefab key="gen_cargo02"/>
+      <ECTransform position="0.946647644 0.000489860773 -4.69699097" rotation="0.018288346 -3.14297462 -0.182635456" scale="1 0.999999881 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1629553eda26d93">
+      <ECPrefab key="global_barricade_small"/>
+      <ECTransform position="-2.02642059 0.00519040227 -11.6820984" rotation="-0.524665177 82.6926346 -0.840515733" scale="1.00000024 0.99999994 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1629553eda76d9d">
+      <ECPrefab key="global_barricade_small"/>
+      <ECTransform position="-2.00301361 0.0120982528 11.6821289" rotation="2.54822063 93.7249451 2.47832036" scale="0.999999285 1 0.999999285" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1629553eda76da3">
+      <ECDecal model_path="rigidmodels/decals/puddles/battle_gen_puddle_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="2.52527618 0.0538728535 -0.677001953" rotation="0 -86.4775772 0" scale="10 4.99999952 5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

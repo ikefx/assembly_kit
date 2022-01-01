@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_aide_de_camp_excluded_strings>
+<root>
+<edit_uuid>4b4e11cb-cb45-4834-ae15-344c15f928db</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{589facc9-4539-416b-8240-2079b91372fa}</field_uuid>
+<primary_key>1</primary_key>
+<name>vo_actor</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>audio_vo_actors</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{c3930799-f802-40f8-a319-ee8af9ffad32}</field_uuid>
+<primary_key>1</primary_key>
+<name>audio_filename</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>audio_filename</column_source_column>
+<column_source_table>aide_de_camp_strings</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

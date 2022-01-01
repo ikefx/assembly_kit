@@ -1,0 +1,600 @@
+victory_objectives
+{
+	
+	//** SINGLE PLAYER **
+	//**PRINCE OF RUNAN - SIMA LIANG**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_runan;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//**PRINCE OF CHU - SIMA WEI**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_chu;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_runan;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//**PRINCE OF DONGHAI- SIMA YUE*
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_donghai;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_runan;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//**PRINCE OF CHANGSHA - SIMA AI**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_changsha;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_runan;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//**PRINCE OF CHENGDU - SIMA YING**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_chengdu;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_runan;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//**PRINCE OF HEJIAN - SIMA YONG**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_hejian;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_runan;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//**PRINCE OF QI - SIMA JIONG**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_qi;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_runan;
+					faction ep_faction_prince_of_zhao;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+
+	//**PRINCE OF ZHAO - SIMA LUN**
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction ep_faction_prince_of_zhao;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key ep_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+					
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key ep_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+			
+				objective
+				{
+					type DESTROY_FACTION;
+					faction ep_faction_prince_of_chu;
+					faction ep_faction_prince_of_donghai;
+					faction ep_faction_prince_of_hejian;
+					faction ep_faction_prince_of_qi;
+					faction ep_faction_prince_of_runan;
+					faction ep_faction_prince_of_changsha;
+					faction ep_faction_prince_of_chengdu;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction all;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key ep_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key ep_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type ATTAIN_FACTION_PROGRESSION_LEVEL;
+					total 5;
+				}			
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}	
+}

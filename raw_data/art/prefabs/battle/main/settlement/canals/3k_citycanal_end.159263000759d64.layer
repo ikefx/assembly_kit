@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="1592630a4ec9d6a">
+      <ECTerrainHole procedural_exclusion_zone="true" procedural_exclusion_zone_margin="5"/>
+      <ECTransform position="-8 0.100000001 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="5" y="-7"/>
+          <point x="5" y="-1"/>
+          <point x="-0.0353030562" y="-0.998941183"/>
+          <point x="-0.0379610509" y="-6.99571896"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="159263b335d9d98">
+      <ECNoGoRegion/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-8" y="0"/>
+          <point x="-8" y="-8"/>
+          <point x="0" y="-8"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15f393c357de48e">
+      <ECBuilding key="3k_citycanal_end" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-8 2.86102295e-06 -8" rotation="0 -90 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citycanal_end"/>
+    </entity>
+    <entity id="162d450fc7793bf">
+      <ECPolygonMesh material="materials/battle_canal_water.xml.material" affects_mesh_optimization="true"/>
+      <ECTransform position="-8 -0.25 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="-0.0164631605" y="-0.452048659"/>
+          <point x="-0.0407592058" y="-7.5888958"/>
+          <point x="7.74414682" y="-7.59339046"/>
+          <point x="7.8170085" y="-0.469698668"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

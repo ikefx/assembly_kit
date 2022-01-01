@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="16643ff24395a08" name="global">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1630e15cf817ae4">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="13.9672785 8.00970268 -7.09408426" rotation="0 180 -1.36603776e-05" scale="0.600000083 0.599999964 0.600000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e177d597ae5">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="10.007966 8.00970364 -7.09408426" rotation="0 180 0" scale="0.600000083 0.599999964 0.599999964" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="156fa092c615829">
+      <ECBuilding key="3k_citywall_walltower" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECWall weak_wall="false" ai_breachable="false" dockable="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 -3.81469727e-06 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_walltower"/>
+    </entity>
+    <entity id="1630e1352bf7ae1">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="14.0177593 1.4650979 0.00344002247" rotation="89.9999924 0 0" scale="1 0.999999821 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e1407a97ae2">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="10.0318413 1.4650979 0.0034400227" rotation="89.9999924 0 0" scale="1 0.999999702 0.999999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="16643ff96ed5a0b" name="tower_level_01">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags="settlement_tower_level_1"/>
+    </entity>
+    <entity id="165f7a334028b0f">
+      <ECPrefab key="3k_main_han_city_wall_towerlevel1" turn_buildings_into_props="false">
+        <override id="16644018e1d5a1d" name="3k_citywall_walltowerlevel1">
+          <ECBuilding damage="0" indestructible="false" toggleable="false" capture_location="156fae17d5a6925"/>
+        </override>
+      </ECPrefab>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8.99999905 8.00000381 -13.999999" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="156fae17d5a6925" name="level_01">
+      <ECCaptureLocation importance="CLIT_MINOR" type="tower" flag_position="11 3" min_players="1" max_players="8" flag_facing_direction="90" destroy_building_on_capture="false"/>
+      <ECTransform position="1 0 -9" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="8"/>
+          <point x="22" y="8"/>
+          <point x="22" y="0"/>
+          <point x="19" y="0"/>
+          <point x="19" y="-10"/>
+          <point x="3" y="-10"/>
+          <point x="3" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="16643ff995f5a0c" name="tower_level_02">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags="settlement_tower_level_2"/>
+    </entity>
+    <entity id="1664401b6905a2b">
+      <ECPrefab key="3k_main_han_city_wall_towerlevel2" turn_buildings_into_props="false">
+        <override id="16797c3f752c81a" name="3k_citywall_walltowerlevel2">
+          <ECBuilding damage="0" indestructible="false" toggleable="false" capture_location="1664402bbf75a35"/>
+        </override>
+      </ECPrefab>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8.99999905 8.00000381 -13.999999" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1664402bbf75a35" name="level_02">
+      <ECCaptureLocation importance="CLIT_MINOR" type="tower" flag_position="11 3" min_players="1" max_players="8" flag_facing_direction="90" destroy_building_on_capture="false"/>
+      <ECTransform position="1 0 -9" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="8"/>
+          <point x="22" y="8"/>
+          <point x="22" y="0"/>
+          <point x="19" y="0"/>
+          <point x="19" y="-10"/>
+          <point x="3" y="-10"/>
+          <point x="3" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="16643ff9b575a0d" name="tower_level_03">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags="settlement_tower_level_3"/>
+    </entity>
+    <entity id="16644019a365a20">
+      <ECPrefab key="3k_main_han_city_wall_towerlevel3" turn_buildings_into_props="false">
+        <override id="1679e53a4df70d8" name="3k_citywall_walltowerlevel3">
+          <ECBuilding damage="0" indestructible="false" toggleable="false" capture_location="1664402c0f35a36"/>
+        </override>
+      </ECPrefab>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8.99999905 8.00000381 -13.999999" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1664402c0f35a36" name="level_03">
+      <ECCaptureLocation importance="CLIT_MINOR" type="tower" flag_position="11 3" min_players="1" max_players="8" flag_facing_direction="90" destroy_building_on_capture="false"/>
+      <ECTransform position="1 0 -9" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="8"/>
+          <point x="22" y="8"/>
+          <point x="22" y="0"/>
+          <point x="19" y="0"/>
+          <point x="19" y="-10"/>
+          <point x="3" y="-10"/>
+          <point x="3" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="16643ff24395a08">
+        <to id="1630e15cf817ae4"/>
+        <to id="1630e177d597ae5"/>
+        <to id="156fa092c615829"/>
+        <to id="1630e1352bf7ae1"/>
+        <to id="1630e1407a97ae2"/>
+      </from>
+      <from id="16643ff96ed5a0b">
+        <to id="165f7a334028b0f"/>
+        <to id="156fae17d5a6925"/>
+      </from>
+      <from id="16643ff995f5a0c">
+        <to id="1664401b6905a2b"/>
+        <to id="1664402bbf75a35"/>
+      </from>
+      <from id="16643ff9b575a0d">
+        <to id="16644019a365a20"/>
+        <to id="1664402c0f35a36"/>
+      </from>
+    </Logical>
+    <Transform>
+      <from id="156fa092c615829">
+        <to id="1630e177d597ae5"/>
+        <to id="1630e15cf817ae4"/>
+        <to id="1630e1407a97ae2"/>
+        <to id="1630e1352bf7ae1"/>
+        <to id="16644019a365a20"/>
+        <to id="165f7a334028b0f"/>
+        <to id="1664401b6905a2b"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

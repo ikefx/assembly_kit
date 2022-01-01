@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="161d33dc4c9fbb6">
+      <ECCompositeScene path="composite_scene/battle_environment/watermill.csc" autoplay="true"/>
+      <ECTransform position="-0.143447399 3.77494097 -1.23473358" rotation="0 8.53773599e-06 0" scale="1 1.00000012 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="161d3410d4afbbb">
+      <ECRiver/>
+      <ECTransform position="0.858459949 4.53586817 0.0402755737" rotation="0 8.53773599e-06 0" scale="1 1.00000012 1" pivot="0 0 0"/>
+      <ECRiverSpline spline_step_size="32" terrain_relative="false" material="materials/battle_river.xml.material" reverse_direction="false">
+        <spline closed="false">
+          <point position="0,0,0" tangent_in="0,0,0" tangent_out="-0.756946087,-2.87854448e-07,0.0253194552" width="0.400000006" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+          <point position="-2.31735182,0.0294861794,-0.030456543" tangent_in="0.756320596,-7.94728621e-08,0.0398459435" tangent_out="-0.756320596,7.94728621e-08,-0.0398459435" width="0.300000012" terrain_offset="0" alpha_fade="1" flow_speed="0.5" foam_amount="0.100000001"/>
+        </spline>
+      </ECRiverSpline>
+    </entity>
+    <entity id="161d347f1defbbe">
+      <ECVFX vfx="3k_main_enviro_watermill_beam_mini2" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-1.41857481 4.59247446 0.032585144" rotation="0 266 0" scale="1.5 1.5 1.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1658aef8d925480">
+      <ECSoundMarker key="Sound_Environment_Prop_Water_Wheel"/>
+      <ECTransform position="-0.109320752 3.62894869 -0.475426793" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

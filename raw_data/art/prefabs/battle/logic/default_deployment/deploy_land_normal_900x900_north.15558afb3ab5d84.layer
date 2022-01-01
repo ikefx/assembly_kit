@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="15558afb3aa5d7e">
+      <ECDeploymentZone facing_direction="0" deployment_type="DZT_1V1" deployment_category="DZC_DEFAULT" deployment_zone_id="0" alliance_id="0" configuration="0"/>
+    </entity>
+    <entity id="15558afb3aa5d7f">
+      <ECDeploymentZoneRegion region_type="DZRT_ADDITIVE"/>
+      <ECTransform position="322.659302 -3.40282347e+038 -117.330643" rotation="0 180 0" scale="1.7017262 1 1.7017262"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="1.90734863e-006" y="-1.54972076e-006"/>
+          <point x="379.214111" y="2.12192535e-005"/>
+          <point x="389.995605" y="1.79814911"/>
+          <point x="399.416565" y="6.46695709"/>
+          <point x="407.170105" y="14.2205124"/>
+          <point x="412.08905" y="24.0583878"/>
+          <point x="413.688049" y="34.474041"/>
+          <point x="413.688049" y="120.65905"/>
+          <point x="412.090332" y="131.189621"/>
+          <point x="407.088013" y="141.110825"/>
+          <point x="399.417847" y="148.697617"/>
+          <point x="390.080231" y="153.283096"/>
+          <point x="379.21405" y="155.133041"/>
+          <point x="-3.05175781e-005" y="155.133026"/>
+          <point x="-10.6012573" y="153.469559"/>
+          <point x="-20.4444427" y="148.510391"/>
+          <point x="-28.0334473" y="140.921387"/>
+          <point x="-32.8423309" y="131.378754"/>
+          <point x="-34.4740143" y="120.659019"/>
+          <point x="-34.473999" y="34.4739914"/>
+          <point x="-32.7715302" y="23.5990982"/>
+          <point x="-28.0312042" y="14.32164"/>
+          <point x="-20.3789673" y="6.66940308"/>
+          <point x="-10.6951904" y="1.65821838"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15558afb3ab5d81">
+      <ECDeploymentZone facing_direction="0" deployment_type="DZT_1V1" deployment_category="DZC_DEFAULT" deployment_zone_id="0" alliance_id="1" configuration="0"/>
+    </entity>
+    <entity id="15558afb3ab5d82">
+      <ECDeploymentZoneRegion region_type="DZRT_ADDITIVE"/>
+      <ECTransform position="-322.659271 -3.40282347e+038 117.330643" rotation="0 0 0" scale="1.7017262 1 1.7017262"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="-3.81469727e-006" y="0"/>
+          <point x="379.214081" y="0"/>
+          <point x="390.34552" y="1.75066376"/>
+          <point x="399.44397" y="6.55265045"/>
+          <point x="407.278809" y="14.2611008"/>
+          <point x="411.954407" y="23.7386856"/>
+          <point x="413.68808" y="34.4740067"/>
+          <point x="413.68808" y="120.659027"/>
+          <point x="412.065308" y="131.43161"/>
+          <point x="407.114807" y="141.00209"/>
+          <point x="399.469177" y="148.647781"/>
+          <point x="390.118469" y="153.377899"/>
+          <point x="379.214081" y="155.133026"/>
+          <point x="0" y="155.133026"/>
+          <point x="-10.6183014" y="153.499237"/>
+          <point x="-20.2714691" y="148.586365"/>
+          <point x="-27.886673" y="140.979645"/>
+          <point x="-32.8446503" y="131.288681"/>
+          <point x="-34.473999" y="120.659027"/>
+          <point x="-34.473999" y="34.4740067"/>
+          <point x="-32.7850342" y="23.7431793"/>
+          <point x="-27.7746582" y="13.9917526"/>
+          <point x="-20.3933105" y="6.61038208"/>
+          <point x="-10.7094879" y="1.73461914"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="15558afb3aa5d7e">
+        <to id="15558afb3aa5d7f"/>
+      </from>
+      <from id="15558afb3ab5d81">
+        <to id="15558afb3ab5d82"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

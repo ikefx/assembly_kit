@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="1592630a4ec9d6a">
+      <ECTerrainHole procedural_exclusion_zone="true" procedural_exclusion_zone_margin="5"/>
+      <ECTransform position="-8 0.100000001 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="1" y="-8"/>
+          <point x="7" y="-8"/>
+          <point x="7" y="-7"/>
+          <point x="8" y="-7"/>
+          <point x="8" y="-1"/>
+          <point x="0" y="-1"/>
+          <point x="0" y="-7"/>
+          <point x="1" y="-7"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="159263ac5039d84">
+      <ECNoGoRegion/>
+      <ECTransform position="-8 -3.46944695e-18 6.10351563e-05" rotation="-2.87871072e-12 3.07358532e-05 -2.87870964e-12" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="8" y="0"/>
+          <point x="8" y="-8"/>
+          <point x="0" y="-8"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15f33fe84678e66">
+      <ECBuilding key="3k_citycanal_junctiont" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 1.90734863e-06 0" rotation="0 90 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citycanal_junctiont"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

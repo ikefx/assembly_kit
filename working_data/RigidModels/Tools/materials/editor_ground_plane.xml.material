@@ -1,0 +1,55 @@
+<material>
+ <name>editor_ground_plane.xml</name>
+ <shader>shaders/editor_ground_plane.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">s_xml_mask_axis</slot>
+   <source>RigidModels/Tools/Textures/ground_plane_axis_mask.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">s_xml_mask_inner_pattern</slot>
+   <source>RigidModels/Tools/Textures/ground_plane_mask.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">s_xml_squares_1</slot>
+   <source>RigidModels/Tools/Textures/ground_plane_2x2_thin_diffuse.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">s_xml_squares_2</slot>
+   <source>RigidModels/Tools/Textures/ground_plane_2x2_thick_diffuse.dds</source>
+  </texture>
+ </textures>
+ <params>
+  <param>
+   <name>axis_x_color</name>
+   <type>float3</type>
+   <value>1,0,0</value>
+  </param>
+  <param>
+   <name>axis_z_color</name>
+   <type>float3</type>
+   <value>0,0,1</value>
+  </param>
+  <param>
+   <name>grid_inner_size</name>
+   <type>float</type>
+   <value>20</value>
+  </param>
+  <param>
+   <name>grid_size</name>
+   <type>float</type>
+   <value>100</value>
+  </param>
+  <param>
+   <name>squares_inner_size</name>
+   <type>float</type>
+   <value>1</value>
+  </param>
+  <param>
+   <name>squares_outer_size</name>
+   <type>float</type>
+   <value>10</value>
+  </param>
+ </params>
+</material>

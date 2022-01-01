@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="16789b5fec2c98b" name="level5">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="16789b6908ac992">
+      <ECBuilding key="set03_ridges01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="true" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.645050049 0.282000005 6.10351563e-05" rotation="-3.25798037e-13 90 0" scale="0.999999225 1 0.999999225" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="set03_ridges01"/>
+    </entity>
+    <entity id="16789b6908ac993">
+      <ECBuilding key="set03_ridges01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="true" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.656143188 0.289758652 9.15527344e-05" rotation="-4.50534879e-12 -90 0" scale="0.999998808 1 0.999998808" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="set03_ridges01"/>
+    </entity>
+    <entity id="16789b6908ac991">
+      <ECBuilding key="s_building18" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="true" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.5 0 0" rotation="-1.36603776e-05 180.000015 -1.36603776e-05" scale="0.999998987 1 0.999998987" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="s_building18"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="16789b5fec2c98b">
+        <to id="16789b6908ac992"/>
+        <to id="16789b6908ac993"/>
+      </from>
+    </Logical>
+    <Transform>
+      <from id="16789b6908ac991">
+        <to id="16789b6908ac992"/>
+        <to id="16789b6908ac993"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

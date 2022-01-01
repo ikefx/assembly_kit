@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="16165d290eb9ead">
+      <ECBuilding key="3k_propcity_dish01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.0684158131 -0.109224252 0.00765588228" rotation="-2.92157722 2.14627814 14.860508" scale="1.02357936 1.07403147 1.04992723" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_dish01"/>
+    </entity>
+    <entity id="16165d290eb9eae">
+      <ECBuilding key="3k_propcity_dish01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.0615769997 0.0651125163 0.0236230753" rotation="-7.71097898 1.05547583 19.6528072" scale="0.909107566 0.907697022 0.901848733" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_dish01"/>
+    </entity>
+    <entity id="16165d290eb9eaf">
+      <ECBuilding key="3k_propcity_dish01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.0109252883 0.133048922 0.0279540941" rotation="-68.6839981 76.7959213 -72.7794952" scale="0.806948125 1.13393557 0.797973633" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_dish01"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="16165d290eb9eaf">
+        <to id="16165d290eb9eae"/>
+        <to id="16165d290eb9ead"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

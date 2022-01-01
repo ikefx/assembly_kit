@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="1592630a4ec9d6a">
+      <ECTerrainHole procedural_exclusion_zone="true" procedural_exclusion_zone_margin="5"/>
+      <ECTransform position="-8 0.100000001 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="8" y="-7"/>
+          <point x="8" y="-1"/>
+          <point x="0" y="-1"/>
+          <point x="0" y="-7"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="159263ac5039d84">
+      <ECNoGoRegion/>
+      <ECTransform position="-8 -3.46944695e-18 6.10351563e-05" rotation="-2.87871072e-12 3.07358532e-05 -2.87870964e-12" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="8" y="0"/>
+          <point x="8" y="-8"/>
+          <point x="0" y="-8"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15f34b15151168f">
+      <ECBuilding key="3k_citycanal_straights" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4.76837016e-07 -3.81469727e-06 9.53674146e-07" rotation="0 90 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citycanal_straights"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

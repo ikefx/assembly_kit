@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="156fac14a3a1053" name="Reference">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="156fac17d591057">
+      <ECBuilding key="3k_citywall_straightwall2" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECWall weak_wall="false" ai_breachable="true" dockable="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 -7.62939453e-06 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="true" id="3k_citywall_straightwall2"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

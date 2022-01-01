@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="32">
+  <entities>
+    <entity id="16013077f92b0e7" name="Layer 1">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1602bbc7f33c71e" name="buildings">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="161dc4c12a15181">
+      <ECBuilding key="ea_palace_building2" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-8.74227766e-08 -1.90734863e-06 -2" rotation="0 90 0" scale="0.999999523 1 0.999999523"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="ea_palace_building2"/>
+    </entity>
+    <entity id="1602bbf1e5ec9c9" name="prop">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1602bc05e69ca0b">
+      <ECBuilding key="3k_prop_city_large_incense_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.00000048 0 -14" rotation="0 -90 0" scale="0.999999702 1 0.999999702"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id=""/>
+    </entity>
+    <entity id="1602bc06929ca0e">
+      <ECBuilding key="3k_prop_city_large_incense_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="5.99999952 0 -14" rotation="0 90 0" scale="0.999999762 1 0.999999762"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id=""/>
+    </entity>
+    <entity id="1602bc18fc7ca17">
+      <ECBuilding key="3k_prop_city_large_incense_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0 -8" rotation="180 270 -180" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id=""/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="1602bbc7f33c71e">
+        <to id="161dc4c12a15181"/>
+      </from>
+      <from id="1602bbf1e5ec9c9">
+        <to id="1602bc05e69ca0b"/>
+        <to id="1602bc06929ca0e"/>
+        <to id="1602bc18fc7ca17"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

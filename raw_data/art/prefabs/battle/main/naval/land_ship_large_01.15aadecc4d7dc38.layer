@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="23">
+  <entities>
+    <entity id="15aae3895905f17" name="Art">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15aadecc4d7dc37">
+      <ECBuilding key="land_ship_large_1" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="land_ship_large_1"/>
+    </entity>
+    <entity id="15aae38c3dd5f19" name="Logic">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15aae3767f45f15">
+      <ECGoRegion/>
+      <ECTransform position="-20 0 -30" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="4" y="0"/>
+          <point x="8" y="-17"/>
+          <point x="32" y="-17"/>
+          <point x="35" y="1"/>
+          <point x="40" y="1"/>
+          <point x="41" y="28"/>
+          <point x="41" y="45"/>
+          <point x="39" y="77"/>
+          <point x="29" y="77"/>
+          <point x="29" y="48"/>
+          <point x="27" y="48"/>
+          <point x="27" y="79"/>
+          <point x="34" y="79"/>
+          <point x="31" y="98"/>
+          <point x="29" y="108"/>
+          <point x="29" y="119"/>
+          <point x="11" y="119"/>
+          <point x="11" y="108"/>
+          <point x="9" y="98"/>
+          <point x="7" y="79"/>
+          <point x="13" y="79"/>
+          <point x="13" y="48"/>
+          <point x="11" y="48"/>
+          <point x="11" y="77"/>
+          <point x="0" y="77"/>
+          <point x="-1" y="45"/>
+          <point x="-1" y="28"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="15aae3895905f17">
+        <to id="15aadecc4d7dc37"/>
+      </from>
+      <from id="15aae38c3dd5f19">
+        <to id="15aae3767f45f15"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

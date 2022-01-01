@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="campaign_diplomacy_movement_options.xsd" export_time="Mon May 10 10:38:30 2021" revision="14" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/2509/dave" export_user="bob">
+<edit_uuid>90295c5f-600c-4c72-85ba-c1698aa418e2</edit_uuid>
+<campaign_diplomacy_movement_options record_uuid="{ba9dbfc6-a077-4d1b-b20b-ca3273afda5e}" record_timestamp="1547821167516" record_key="campaign_force_movement_options_alliance">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Leave military alliance and declare war on faction" last_edit_user="bob">Leave military alliance and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>4</priority>
+<requirement>campaign_force_movement_options_alliance</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{6c8207c3-e5ac-43b2-b9ac-a3c97bfc1c7d}" record_timestamp="1617111185572" record_key="campaign_force_movement_options_alliance_vassal">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Leave military alliance and declare war on faction" last_edit_user="bob">Leave military alliance and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>3</priority>
+<requirement>campaign_force_movement_options_alliance_vassal</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{bf7a22b1-6b39-4418-a5de-f698ec2f65e3}" record_timestamp="1547821167313" record_key="campaign_force_movement_options_coalition">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Leave coalition and declare war on faction" last_edit_user="bob">Leave coalition and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>4</priority>
+<requirement>campaign_force_movement_options_coalition</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{a0630938-0f7b-42ca-9054-ccfd2c1c4eb6}" record_timestamp="1617111185572" record_key="campaign_force_movement_options_coalition_vassal">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Leave coalition and declare war on faction" last_edit_user="bob">Leave coalition and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>3</priority>
+<requirement>campaign_force_movement_options_coalition_vassal</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{562958d4-68b8-4b8f-ba48-e60a8c316ab7}" record_timestamp="1547465266133" record_key="campaign_force_movement_options_default">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="War against faction" last_edit_user="bob">War against faction</localised_title>
+<negotiation_type>followup_normal</negotiation_type>
+<priority>0</priority>
+<requirement>campaign_force_movement_options_default</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{94df5682-6bf9-4f00-8cf4-db0135afb697}" record_timestamp="1574174335631" record_key="campaign_force_movement_options_empire_emperor">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Expell subject and declare war on faction" last_edit_user="bob">Expell subject and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>5</priority>
+<requirement>campaign_force_movement_options_empire_emperor</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{1e519c41-4f1f-4b59-a33a-a309c2b73ecb}" record_timestamp="1570441678049" record_key="campaign_force_movement_options_empire_not_emperor">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Abandon empire and declare war on faction" last_edit_user="bob">Abandon empire and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>5</priority>
+<requirement>campaign_force_movement_options_empire_not_emperor</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{7684cf80-2704-4b6f-8133-b12d3c28837b}" record_timestamp="1617111185572" record_key="campaign_force_movement_options_empire_vassal">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Abandon empire and declare war on faction" last_edit_user="bob">Abandon empire and declare war on faction</localised_title>
+<negotiation_type>movment_options_normal</negotiation_type>
+<priority>3</priority>
+<requirement>campaign_force_movement_options_empire_vassal</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{f368976c-e316-41a4-bc7d-f8df71ec8b08}" record_timestamp="1547465266133" record_key="treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_not_vassalage_any&lt;variable_master&gt;_to_recipient_existing_AND">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Request permission to declare war" last_edit_user="bob">Request permission to declare war</localised_title>
+<negotiation_type>followup_normal</negotiation_type>
+<priority>1</priority>
+<requirement>treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_not_vassalage_any&lt;variable_master&gt;_to_recipient_existing_AND</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+<campaign_diplomacy_movement_options record_uuid="{ef73ab19-13e6-4266-9b71-30b32226da20}" record_timestamp="1549487477246" record_key="treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_war_with_master_existing_AND">
+<initiator_variable>variable_proposers</initiator_variable>
+<localised_title state="APPROVED" last_approved_text="Aid master" last_edit_user="bob">Aid master</localised_title>
+<negotiation_type>followup_normal</negotiation_type>
+<priority>2</priority>
+<requirement>treaty_vassalage_any&lt;variable_master&gt;_to_proposer_and_war_with_master_existing_AND</requirement>
+<target_variable>variable_recipients</target_variable>
+</campaign_diplomacy_movement_options>
+</dataroot>

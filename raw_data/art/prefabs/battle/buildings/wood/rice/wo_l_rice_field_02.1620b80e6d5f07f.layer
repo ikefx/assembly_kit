@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="1620bbb25392b45" name="water">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="165ec30e1f48109">
+      <ECPolygonMesh material="materials/battle_rice_paddies.xml.material" affects_mesh_optimization="false" ground_type="shallow_water"/>
+      <ECTransform position="10.3145142 7.62939453e-06 40.7347031" rotation="0 -35.9999695 0" scale="2 2 2" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0.0181427002" y="0.0978317261"/>
+          <point x="0.584424973" y="-2.55728626"/>
+          <point x="-20.9362717" y="-30.6602364"/>
+          <point x="-24.9985352" y="-30.4456406"/>
+          <point x="-31.1600018" y="-24.8755608"/>
+          <point x="-31.9052544" y="-21.1826401"/>
+          <point x="-22.364296" y="-8.77964306"/>
+          <point x="-10.7903652" y="1.8738656"/>
+          <point x="-5.06171608" y="1.22080612"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="1620bbb43242b46" name="shrub_rice">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1620b80e6d4f079">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-1.47351694 -0.296999991 25.5765171" rotation="0.0879432261 -2.29854868e-06 0.0263571907" scale="0.999999404 0.999999344 0.999999404" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d5f07b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-4.8067627 -0.296999991 -34.133297" rotation="0.148412526 -8.31941998e-06 -0.0917991921" scale="0.999999881 0.999998987 0.999999642" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620bba079c2b43">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.388031 -0.296999991 -24.5218658" rotation="0.100801468 32.5289993 -0.135751545" scale="0.999999702 0.999998271 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f073">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-3.9314723 -0.296999991 -23.3776646" rotation="0.0860348865 -0.811974525 0.026385935" scale="0.999999702 1 0.999999642" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d5f07d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-1.45368052 -0.296999991 18.3183384" rotation="0.088448666 1.31323981 0.0263550114" scale="1.00000012 0.999998331 0.999998629" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f075">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="1.61998892 -0.296999991 30.0211353" rotation="0.0929701775 5.54272174e-06 -0.0520819016" scale="1.00000036 0.999999344 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d5f07e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-1.11780405 -0.296999991 31.7025166" rotation="0.114215605 52.9277306 0.086765036" scale="0.999999166 0.999998331 0.999998868" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f069">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="1.36724234 -0.296999991 32.3135452" rotation="0.143725917 -30.2882366 -0.0702345967" scale="0.999999881 0.99999845 0.999999046" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f05d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-0.44681406 -0.296999991 30.1694279" rotation="0.123013914 -3.68698579e-06 0.071036756" scale="1 0.999998391 0.999998987" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f065">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.593316555 -0.296999991 30.1799259" rotation="0.131240636 -1.62479428e-05 -0.077505663" scale="0.999998868 0.999999762 0.99999845" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f06b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.4717712 -0.296999991 -32.5286713" rotation="-0.0322606564 65.4101563 -0.170706213" scale="0.999999344 0.99999845 0.999998689" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f076">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-2.94031382 -0.296999991 31.2576923" rotation="0.124396786 52.9276772 0.0776723847" scale="1.00000012 0.999997795 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f06a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-3.81976938 -0.296999991 29.6250629" rotation="0.11137867 52.9277039 0.0948847979" scale="0.999999106 0.999999404 0.999998331" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f060">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-4.5921216 -0.296999991 -16.6383514" rotation="0.0876455158 -0.773646176 0.0263610054" scale="1.00000012 0.999998808 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d5f07c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-3.76220703 -0.296999991 -33.7657738" rotation="0.142368451 164.716599 0.0735747963" scale="1.00000048 0.999999464 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f06f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-3.6418457 -0.296999991 -30.0586433" rotation="0.0875364915 -0.592147589 0.0263581499" scale="0.999999404 0.999998569 0.999998927" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f06d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-1.89532471 -0.296999991 -33.5181465" rotation="0.0807738155 222.244125 359.906891" scale="0.999997199 0.999998629 0.999997675" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f062">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-2.25888681 -0.296999991 29.6431065" rotation="-0.043048732 52.9276772 -0.0965283811" scale="0.999998808 0.999998212 0.999998987" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f067">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.45617676 -0.296999991 -33.1940308" rotation="-0.268204451 75.4824905 -0.456567436" scale="1.00000048 0.999998569 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f05b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-6.25283813 -0.296999991 -33.4293327" rotation="0.0564720035 203.944855 359.933075" scale="1.00000012 0.999999464 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1620b80e6d4f078">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.215936184 -0.296999991 32.2701569" rotation="0.123013906 -3.68697306e-06 0.071036756" scale="0.99999994 0.999998569 0.999998987" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc12e673c78">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-8.9057312 -0.296999991 -22.2795105" rotation="49.507328 269.627289 310.752625" scale="1.00000024 0.999999344 0.999999225" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc1d4a93c79">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.4632874 -0.296999991 -21.6696625" rotation="0.11600659 26.7899075 -0.128217846" scale="0.999999881 0.999998331 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc1ed883c7a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9277039 -0.296999991 -20.2385025" rotation="0.115921967 206.827179 0.12825729" scale="0.999999225 0.999998331 0.999999523" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2099a3c7b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.8257446 -0.296999991 -23.0760574" rotation="0.134841591 198.80484 0.120908007" scale="1.00000012 0.999997795 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2167c3c7c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.4231262 -0.296999991 -19.1594315" rotation="46.7895927 90.151947 46.6159554" scale="1.00000024 0.999998033 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2c02a3c7f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-8.87692261 -0.296999991 -29.1588974" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2d5563c81">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.4632874 -0.296999991 -29.4720154" rotation="0.116006553 26.7899075 -0.128217816" scale="0.999999821 0.999998331 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2d5563c82">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.5223694 -0.296999991 -26.3166428" rotation="0.102748238 31.8368835 -0.134729356" scale="1.00000012 0.999997497 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2d5563c83">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9497986 -0.296999991 -30.878418" rotation="0.134841591 198.80484 0.120908007" scale="1.0000006 0.999997675 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc2d5563c84">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9277344 -0.296999991 -28.0408554" rotation="0.115921967 206.827179 0.12825729" scale="0.999998569 0.999998331 0.999999046" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc3f5673c86">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-6.77799082 -0.296999991 19.4714069" rotation="-68.8405685 -89.6986923 69.0987015" scale="0.999999404 0.999999106 0.99999851" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc42db83c87">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-10.9131165 -0.296999991 -17.7329102" rotation="0.038573619 49.7550507 -0.177157685" scale="1 0.999997497 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc42db83c88">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.1994934 -0.296999991 -15.0392838" rotation="0.0877971277 36.9218826 -1.77519429" scale="0.999999762 0.999997675 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc42db83c89">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.46109581 -0.296999991 16.2297535" rotation="0.186737359 173.561951 0.115184307" scale="1.00000215 0.999997675 1.00000215" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc42db83c8a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.2718201 -0.296999991 -16.1709671" rotation="0.110539779 208.936905 0.130784452" scale="0.999998927 0.999997914 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc46e423c8c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="3.95655012 -0.296999991 -35.0662155" rotation="0.119883716 25.2305355 -0.126524493" scale="1.0000006 0.999998391 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc47f193c8d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="2.43065929 -0.296999991 -35.074543" rotation="0.0635324046 43.936924 -0.158940986" scale="1.00000048 0.999998331 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc485e53c8e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.815543175 -0.296999991 -35.0167923" rotation="-0.151705727 70.6281586 -0.345056921" scale="1.0000006 0.999998093 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc48e313c8f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-0.732585669 -0.296999991 -34.3866081" rotation="0.420105577 -65.0718002 -0.271570742" scale="1.00000036 0.999997497 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc684673c90">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.86101675 -0.296999991 22.462122" rotation="-0.235983029 260.009552 -359.650452" scale="0.999999523 0.99999851 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc6972f3c91">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-1.11334848 -0.296999991 22.0981846" rotation="-0.151903197 76.8780441 -0.267125517" scale="0.999999583 0.999998093 0.999998927" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fc6acca3c92">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-3.04587412 -0.296999991 22.1841602" rotation="-0.151903197 76.8780441 -0.267125517" scale="0.999999583 0.999998093 0.999998927" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ebe3fa7b53a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-4.88193369 -0.296999991 31.0515537" rotation="0.103231475 221.076141 359.937866" scale="1.00000012 0.999997914 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ebe5890b53b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-6.12689829 -0.296999991 29.6430759" rotation="0.0891553536 29.7108669 0.0539200529" scale="0.999999762 0.999997973 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ebf633bb53d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-7.68539429 -0.296999991 -33.9867821" rotation="-0.111158952 68.1181488 -0.307068557" scale="0.999999642 0.999999523 0.999999583" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ebf837bb53e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-8.03753662 -0.296999991 -19.463768" rotation="0.076754868 40.2974586 -0.150076881" scale="1.0000006 0.999997973 1.00000131" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ebffa87b53f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.2855225 -0.296999991 -13.0021057" rotation="0 0.999992013 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec064bbb540">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.60125732 -0.296999991 -12.3194046" rotation="-0.412488759 259.161224 -359.402802" scale="1.00000179 0.999997497 1.00000191" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec064bbb541">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.29910278 -0.296999991 -16.5513306" rotation="0.136642337 17.9925308 -0.120346129" scale="1.00000024 0.999998033 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec064bbb542">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.90637207 -0.296999991 -14.8735123" rotation="0.103067547 211.716812 0.134541065" scale="0.999998152 0.999998093 0.999998391" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec064bbb543">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.12188721 -0.296999991 -18.0416107" rotation="0 194.760178 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec064bbb544">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.57580566 -0.296999991 -17.8970032" rotation="0.462663323 205.982239 1.57870257" scale="1 0.999997973 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec089f1b545">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-5.49378061 -0.296999991 28.9692097" rotation="-0.412488759 259.161224 -359.402802" scale="1.00000179 0.999997377 1.00000203" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec089f1b546">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-5.52872324 -0.296999991 23.3225498" rotation="0 170.055725 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec089f1b547">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-5.51334238 -0.296999991 25.3161335" rotation="0.0789242759 39.6608772 -0.14868784" scale="1.00000012 0.999997556 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec089f1b548">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-5.54468393 -0.296999991 27.3304539" rotation="0.103067547 211.716827 0.134541065" scale="0.999997914 0.999998093 0.999997854" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec089f1b549">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-5.97281504 -0.296999991 23.9388371" rotation="0.462663323 205.982239 1.57870257" scale="1 0.999997973 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec09459b54a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-6.55344248 -0.296999991 27.8025074" rotation="0 4.90897465 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec09459b54b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-7.57156992 -0.296999991 25.4452" rotation="0.099939324 212.845871 0.136234954" scale="0.999999821 0.999997497 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec09459b54c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-7.49771738 -0.296999991 23.9363804" rotation="0.0528984405 46.5699005 -0.166489452" scale="0.999999225 0.999998569 0.999999404" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec09459b54d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-6.98135996 -0.296999991 26.5392094" rotation="-0.0721096843 40.8288689 -1.87562537" scale="0.999999702 0.999998033 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec09459b54e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-7.67380381 -0.296999991 22.4567661" rotation="1.77349949 94.0165939 1.60340047" scale="1.00000036 0.999997735 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec16bdbb54f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.69900513 -0.296999991 -13.2347107" rotation="0 88.1988602 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1622ec18340b550">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.27225304 -0.296999991 17.5708256" rotation="0.145143583 14.0633144 -0.117997497" scale="1.00000107 0.999997973 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f34f64d1243">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.23277569 -0.296999991 18.1089096" rotation="0.0864359289 0.0588950403 0.0263833031" scale="0.999999642 1 0.999999523" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f34f64d1246">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.23951769 -0.296999991 24.6631069" rotation="0.0864359364 0.0588949844 0.026383305" scale="0.999999583 1 0.999999464" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f34f64d1245">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.22586155 -0.296999991 11.387516" rotation="0.0864359289 0.0588951148 0.0263833031" scale="0.999999702 1 0.999999583" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f34f64d1242">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.42303419 -0.296999991 4.72817898" rotation="0.0879371241 0.278722107 0.0263570566" scale="0.999999344 0.99999851 0.999998868" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f34f64d1244">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.24588013 -0.296999991 30.8483944" rotation="0.0864359364 0.0588948801 0.0263833068" scale="0.999999523 1 0.999999404" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f35381b1247">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="2.34565091 -0.296999991 -29.9967518" rotation="0.0875365064 -0.592147648 0.0263581518" scale="0.999999404 0.99999851 0.999998868" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f35442d1248">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="7.45069122 -0.296999991 -28.9138718" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3581ed1249">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="3.49253011 -0.296999991 -33.3503265" rotation="0.419373751 -65.0065613 -0.270907223" scale="1.00000036 0.999997377 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3581ed124a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="6.6549902 -0.296999991 -34.0418625" rotation="0.0632808357 44.0021591 -0.159115657" scale="1.00000048 0.999998331 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3581ed124b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="5.03994083 -0.296999991 -33.9822731" rotation="-0.152894244 70.6933975 -0.346178412" scale="1.0000006 0.999997973 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3581ed124c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.18088913 -0.296999991 -34.0352707" rotation="0.119724378 25.2957726 -0.126592502" scale="1.0000006 0.999998391 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f359ce3124d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.684683561 -0.296999991 -33.7516136" rotation="-0.151705757 70.6281586 -0.345056981" scale="1.0000006 0.999998033 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f35a51c124e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="5.22127962 -0.296999991 -35.4279861" rotation="-0.152894005 70.693367 -0.346178114" scale="1.00000048 0.999997914 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36356e124f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-12.4747467 -0.296999991 -9.36007881" rotation="0.134841591 198.80484 0.120908007" scale="1.00000119 0.999997497 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36356e1250">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-9.40187073 -0.296999991 -7.64055824" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36356f1251">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-12.4526825 -0.296999991 -6.52251625" rotation="0.115921967 206.827209 0.12825729" scale="0.999998212 0.999998331 0.999998689" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36356f1252">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.98112488 -0.296999991 -11.6756916" rotation="-0.268204331 75.4824905 -0.456567347" scale="1.00000048 0.999998391 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36356f1253">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9882355 -0.296999991 -7.95367622" rotation="0.116006546 26.7899075 -0.128217816" scale="0.999999642 0.999998331 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36356f1254">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9967194 -0.296999991 -11.0103321" rotation="-0.0322607122 65.4101563 -0.170706272" scale="0.999999523 0.999998271 0.999998748" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3647b91255">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-12.2751951 -0.296999991 -2.69983101" rotation="0.134841591 198.80484 0.120908007" scale="1.00000143 0.999997377 1.00000119" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3647b91256">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-9.20231915 -0.296999991 -0.98031044" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3647b91257">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.7971678 -0.296999991 -4.3500843" rotation="-0.0322607458 65.4101563 -0.170706302" scale="0.999999642 0.999998152 0.999998748" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3647b91258">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.7886839 -0.296999991 -1.29342842" rotation="0.116006531 26.7899094 -0.128217846" scale="0.999999583 0.999998331 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3647b91259">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.7815733 -0.296999991 -5.0154438" rotation="-0.268204391 75.4824905 -0.456567347" scale="1.00000048 0.999998271 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3647b9125a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-12.2531309 -0.296999991 0.137731552" rotation="0.115921967 206.827225 0.12825729" scale="0.999998033 0.999998331 0.999998569" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3657a7125b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-8.89720631 -0.296999991 6.04665661" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3657a7125c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.4920549 -0.296999991 2.67688274" rotation="-0.0322607793 65.4101563 -0.170706362" scale="0.999999702 0.999997973 0.999998748" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3657a7125d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.47646046 -0.296999991 2.01152325" rotation="-0.26820451 75.4824905 -0.456567496" scale="1.00000048 0.999998093 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3657a7125e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9480181 -0.296999991 7.1646986" rotation="0.115921967 206.827225 0.12825729" scale="0.999998033 0.999998331 0.999998569" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3657a7125f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.9700823 -0.296999991 4.32713604" rotation="0.134841591 198.80484 0.120908007" scale="1.00000191 0.999997199 1.00000155" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3657a71260">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-11.4835711 -0.296999991 5.73353863" rotation="0.116006531 26.7899094 -0.128217846" scale="0.999999583 0.999998331 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3665421261">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-7.40242481 -0.296999991 12.8022022" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3665421262">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-7.98167896 -0.296999991 8.76706886" rotation="-0.26820457 75.4824905 -0.456567556" scale="1.00000048 0.999997973 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3665421263">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-10.4532366 -0.296999991 13.9202442" rotation="0.115921967 206.827225 0.12825729" scale="0.999998033 0.999998331 0.999998569" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3665421264">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-10.4753008 -0.296999991 11.0826817" rotation="0.134841591 198.80484 0.120908007" scale="1.00000215 0.999997079 1.00000179" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3665421265">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.98878956 -0.296999991 12.4890842" rotation="0.116006531 26.7899094 -0.128217846" scale="0.999999583 0.999998331 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3665421266">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-9.99727345 -0.296999991 9.43242836" rotation="-0.0322608203 65.4101563 -0.170706436" scale="0.999999702 0.999997854 0.999998748" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3689891267">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-4.68477249 -0.296999991 -9.77666569" rotation="0.0876455158 -0.773646176 0.0263610072" scale="1.00000012 0.999998748 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f368d641268">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-4.62054825 -0.296999991 -3.03932762" rotation="0.0876455233 -0.773646176 0.0263610091" scale="1.00000012 0.999998629 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3697271269">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-4.28226614 -0.296999991 3.83818364" rotation="0.0876455307 -0.773646176 0.0263610166" scale="1.00000012 0.99999845 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36b012126a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="-3.44281101 -0.296999991 11.8733521" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36b9af126b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="0.27543965 -0.296999991 11.925396" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36c991126c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="0.367659777 -0.296999991 5.78932095" rotation="18.4959736 269.093414 341.759399" scale="0.99999994 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36cd9a126d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="0.464490592 -0.296999991 -0.65354073" rotation="-21.7983856 -89.2256927 22.0497971" scale="0.999999881 0.999999404 0.999999106" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36da9d126e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="0.379944235 -0.296999991 -7.40515041" rotation="-21.7987843 -89.2259445 22.0501537" scale="1 0.999999404 0.999999166" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36defd126f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="0.303375185 -0.296999991 -13.5197306" rotation="-21.7987843 -89.2259445 22.0501537" scale="1 0.999999404 0.999999166" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36e2f01270">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_b"/>
+      <ECTransform position="0.224326998 -0.296999991 -19.832283" rotation="-21.7987843 -89.2259445 22.0501537" scale="1 0.999999404 0.999999166" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f36f8741271">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.044940412 -0.296999991 -24.5752792" rotation="0.474315643 96.117981 0.26973781" scale="1.00000048 0.999997914 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f370be81272">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="0.150099725 -0.296999991 -26.2558823" rotation="0.254332542 79.6370544 0.0471598022" scale="1.00000072 0.999998271 1.00000119" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3722481273">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="1.54372442 -0.296999991 -25.6236649" rotation="-0.0513699017 10.2500868 -0.211023331" scale="1.00000036 0.999997735 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f374b8b1274">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-8.36264801 -0.296999991 -14.5191498" rotation="0.0876996219 181.285034 0.186764687" scale="0.999998093 0.999998093 0.999998271" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3766d01275">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.39197302 -0.296999991 -1.65604889" rotation="0.0879371464 0.278722167 0.0263570584" scale="0.999999285 0.99999845 0.999998808" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f376b1e1276">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.3601675 -0.296999991 -8.19350624" rotation="0.0879371613 0.278722227 0.026357064" scale="0.999999225 0.999998391 0.999998748" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f376f111277">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.32900095 -0.296999991 -14.5990467" rotation="0.0879371762 0.278722286 0.0263570677" scale="0.999999166 0.999998331 0.999998689" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37779b1278">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="5.2958765 -0.296999991 -21.407299" rotation="0.0879372135 0.278722405 0.0263570752" scale="0.999999046 0.999998212 0.999998569" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3790031279">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="2.44706607 -0.296999991 -24.8918209" rotation="-0.0683546588 64.7037125 -0.267855227" scale="1.00000048 0.999998271 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f379003127a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.19219875 -0.296999991 -25.9589138" rotation="0.0550358631 46.0626297 -0.164950073" scale="1.0000006 0.999998391 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f379003127b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="4.93106222 -0.296999991 -26.2117634" rotation="4.65338039 91.4648666 4.4810276" scale="1.00000048 0.999997795 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f379003127c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="5.27410698 -0.296999991 -24.795681" rotation="4.65338039 91.4651413 4.4810276" scale="1.00000048 0.999997854 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f379003127d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="6.76309919 -0.296999991 -25.4240437" rotation="-0.0690700784 64.7689514 -0.268502265" scale="1.00000048 0.999998271 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f379004127e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="3.87677336 -0.296999991 -25.425066" rotation="0.0553062446 45.9973907 -0.164755389" scale="1.0000006 0.99999845 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d127f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.74977303 -0.296999991 -28.6654263" rotation="0.209213391 -10.4942369 -0.0696265325" scale="1.00000012 0.999997556 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1280">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.3039856 -0.296999991 -24.362606" rotation="0.205726862 0.771811903 -0.0287501514" scale="1.00000048 0.999997675 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1281">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.79305649 -0.296999991 -20.4682655" rotation="0.307109565 -49.3484535 -0.175689459" scale="1.00000048 0.99999845 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1282">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.21100235 -0.296999991 -21.9562149" rotation="0.241617918 -30.6420822 -0.133029193" scale="1.00000012 0.999998093 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1283">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.5231142 -0.296999991 -17.5945892" rotation="0.241442055 -30.5768452 -0.132939607" scale="1.00000036 0.999998212 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1284">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.46506977 -0.296999991 -14.4814644" rotation="0.181583643 -3.88571763 -0.114700139" scale="1.00000036 0.999997616 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1285">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-1.15998077 -0.296999991 -25.2681332" rotation="-41.7696648 90.2973938 -41.7046013" scale="1.00000048 0.99999851 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1286">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.92250633 -0.296999991 -16.1218719" rotation="0.306803077 -49.2832184 -0.175457105" scale="1.00000048 0.999998212 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37b26d1287">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.03621769 -0.296999991 -19.1356506" rotation="0.181585103 -3.88544393 -0.11472173" scale="1.00000048 0.999997675 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f1288">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.18948841 -0.296999991 -4.04713011" rotation="0.193707705 2.15506601 0.0837186873" scale="1.00000036 0.999998093 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f1289">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.25083065 -0.296999991 -7.31789494" rotation="0.1929923 -9.5132494 -0.116054103" scale="1.00000048 0.999997616 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f128b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.13470554 -0.296999991 -8.56986618" rotation="0.337129921 -54.9762459 -0.19942677" scale="1.00000024 0.999998391 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f128c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.08000946 -0.296999991 -14.1910381" rotation="0.0762880519 40.4348412 -0.150371268" scale="1.00000048 0.999998271 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f128d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.70137405 -0.296999991 -10.1077232" rotation="0.257798791 -36.2698822 -0.141960412" scale="1.00000012 0.999998033 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f128e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.58425426 -0.296999991 -5.73651361" rotation="0.257598519 -36.2046432 -0.141842008" scale="1.00000024 0.999998212 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f128f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.70632076 -0.296999991 -7.38509846" rotation="0.192988709 -9.51351929 -0.11603231" scale="1.00000024 0.999997556 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37eb6f1290">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.02989388 -0.296999991 -12.4933968" rotation="0.208556443 -4.85600138 -0.0288511049" scale="1.00000036 0.999997735 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01291">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.9461031 -0.296999991 4.5388813" rotation="0.188414484 -7.27240276 -0.115364544" scale="1.00000024 0.999997675 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01292">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="10.0199909 -0.296999991 1.55940223" rotation="0.196331516 -9.34768581 0.0441550873" scale="1.00000048 0.999998569 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01293">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.88936234 -0.296999991 6.23008251" rotation="0.250910968 -33.9635391 -0.137997389" scale="1.00000012 0.999998093 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01294">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.49435425 -0.296999991 4.66295052" rotation="0.188417211 -7.27213573 -0.115386225" scale="1.00000048 0.999997735 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01295">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.20105648 -0.296999991 7.72382355" rotation="0.323895872 -52.6699257 -0.188742056" scale="1.00000036 0.999997973 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01296">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.32859516 -0.296999991 3.37737274" rotation="0.324250519 -52.7351456 -0.189024165" scale="1.00000012 0.999998212 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01297">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.23243523 -0.301068366 -2.29047465" rotation="0.0682898834 42.6759529 -0.15567787" scale="1.00000036 0.999998033 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01298">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.07043457 -0.296999991 -0.539058924" rotation="0.207427114 -2.61488509 -0.0287775155" scale="1.00000036 0.999997675 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f37f9c01299">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.83545685 -0.296999991 1.85763741" rotation="0.251100481 -34.0287743 -0.138103426" scale="1.00000012 0.999997914 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e13129a">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.88230038 -0.296999991 16.2050247" rotation="0.188417211 -7.27213573 -0.115386225" scale="1.00000048 0.999997854 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e13129b">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.98919964 -0.296999991 16.4314766" rotation="0.188414454 -7.27240181 -0.115364544" scale="1.00000024 0.999997735 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e13129c">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.35166836 -0.296999991 9.81431389" rotation="0.068289876 42.6759529 -0.1556779" scale="1.00000036 0.999997973 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e13129d">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.52867508 -0.296999991 8.12620258" rotation="0.196331516 -9.34768581 0.0441550873" scale="1.00000048 0.999998569 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e13129e">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.80631733 -0.296999991 14.6080341" rotation="0.324250519 -52.7351456 -0.189024165" scale="1.00000012 0.999998093 1.00000036" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e13129f">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.24415302 -0.296999991 19.6164188" rotation="0.323895872 -52.6699257 -0.188742056" scale="1.00000036 0.999997914 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e1312a0">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.11353111 -0.296999991 11.3535366" rotation="0.207427144 -2.61488509 -0.0287775211" scale="1.00000036 0.999997675 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e1312a1">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.87855339 -0.296999991 13.7502327" rotation="0.251100451 -34.0287666 -0.138103396" scale="1.00000012 0.999997854 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f380e1312a2">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.93245888 -0.296999991 18.1226768" rotation="0.250910997 -33.9635391 -0.137997404" scale="1.00000012 0.999997914 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a3">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="10.0205688 -0.296999991 19.1415405" rotation="0.199091882 -5.78165722 0.0437914953" scale="1.00000048 0.999998748 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a4">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.96012306 -0.296999991 25.9946136" rotation="0.306268603 -49.1691322 -0.17505227" scale="1 0.999997914 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a5">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.2074585 -0.296999991 27.3295879" rotation="0.181225255 -3.70611382 -0.114697911" scale="1.00000048 0.999997914 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a6">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.34208679 -0.296999991 20.5090027" rotation="0.0542893335 46.2419662 -0.165488631" scale="1.00000036 0.999997795 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a7">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.37341309 -0.296999991 24.5084915" rotation="0.241134912 -30.4627514 -0.132783696" scale="1 0.999997735 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a8">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="10.6486797 -0.296999991 27.1154633" rotation="0.181223944 -3.70637894 -0.114676349" scale="1.00000024 0.999997854 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212a9">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.69917488 -0.296999991 28.8691158" rotation="0.240959793 -30.3975163 -0.132694945" scale="1 0.999997914 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212aa">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.45886517 -0.296999991 22.1018219" rotation="0.205637097 0.95114392 -0.0287515316" scale="1.00000036 0.999997675 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38124212ab">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="10.6780834 -0.296999991 30.9225712" rotation="0.30596441 -49.1038933 -0.174822211" scale="1.00000036 0.999997616 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f382e1112ac">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.56538296 -0.296999991 32.1806946" rotation="0.306268632 -49.1691322 -0.17505227" scale="1 0.999997854 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f382e1112ad">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.30443478 -0.296999991 35.0551987" rotation="0.240959749 -30.3975163 -0.132694945" scale="1 0.999997914 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f382e1112ae">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.97867298 -0.296999991 30.6945724" rotation="0.241134956 -30.4627514 -0.132783711" scale="0.99999994 0.999997735 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f382e1112af">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="6.54559898 -0.296999991 35.7559204" rotation="0.181225255 -3.70611382 -0.114697881" scale="1.00000048 0.999997914 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f382e1112b0">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="9.70843506 -0.296999991 36.5266647" rotation="0.30596441 -49.1038933 -0.174822211" scale="1.00000036 0.999997616 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f382e1112b1">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="10.8460131 -0.296999991 33.8522301" rotation="0.181223959 -3.70637894 -0.114676364" scale="1.00000024 0.999997854 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3846b712b2">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="8.87833786 -0.296999991 33.2281342" rotation="0.232931077 -39.068325 -0.249788225" scale="1.00000048 0.999997973 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3857ae12b3">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="7.76154137 -0.296999991 35.8844528" rotation="0.181225255 -3.70611382 -0.114697881" scale="1.00000048 0.999997914 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f385cc912b4">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="4.84226704 -0.296999991 35.262928" rotation="0.450227559 66.3167038 0.309327036" scale="1.00000048 0.999998033 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38662112b5">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="1.00834203 -0.296999991 33.6434288" rotation="0.450227529 66.3167038 0.309327036" scale="1.00000048 0.999998033 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f386a3612b6">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-1.79516149 -0.296999991 32.4466209" rotation="0.450227529 66.3167038 0.309327036" scale="1.00000048 0.999998033 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f3870fb12b7">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="-3.62132239 -0.296999991 32.0498047" rotation="0.450227529 66.3167038 0.309327036" scale="1.00000048 0.999998033 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1689f38813912b8">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_e"/>
+      <ECTransform position="3.20535779 -0.296999991 34.8008347" rotation="0.450227529 66.3167038 0.309327036" scale="1.00000048 0.999998033 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1621fa6adbc8cc9">
+      <ECBuilding key="3k_prop_rice_field_lrg_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Absolute"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-15.2028503 0 -39.4204178" rotation="0 -1.7075472e-06 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_rice_field_lrg_02"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="1620bbb25392b45">
+        <to id="165ec30e1f48109"/>
+      </from>
+      <from id="1620bbb43242b46">
+        <to id="1620b80e6d4f079"/>
+        <to id="1620b80e6d5f07b"/>
+        <to id="1620bba079c2b43"/>
+        <to id="1620b80e6d4f073"/>
+        <to id="1620b80e6d5f07d"/>
+        <to id="1620b80e6d4f075"/>
+        <to id="1620b80e6d5f07e"/>
+        <to id="1620b80e6d4f069"/>
+        <to id="1620b80e6d4f05d"/>
+        <to id="1620b80e6d4f065"/>
+        <to id="1620b80e6d4f06b"/>
+        <to id="1620b80e6d4f076"/>
+        <to id="1620b80e6d4f06a"/>
+        <to id="1620b80e6d4f060"/>
+        <to id="1620b80e6d5f07c"/>
+        <to id="1620b80e6d4f06f"/>
+        <to id="1620b80e6d4f06d"/>
+        <to id="1620b80e6d4f062"/>
+        <to id="1620b80e6d4f067"/>
+        <to id="1620b80e6d4f05b"/>
+        <to id="1620b80e6d4f078"/>
+        <to id="1621fc12e673c78"/>
+        <to id="1621fc1d4a93c79"/>
+        <to id="1621fc1ed883c7a"/>
+        <to id="1621fc2099a3c7b"/>
+        <to id="1621fc2167c3c7c"/>
+        <to id="1621fc2c02a3c7f"/>
+        <to id="1621fc2d5563c81"/>
+        <to id="1621fc2d5563c82"/>
+        <to id="1621fc2d5563c83"/>
+        <to id="1621fc2d5563c84"/>
+        <to id="1621fc3f5673c86"/>
+        <to id="1621fc42db83c87"/>
+        <to id="1621fc42db83c88"/>
+        <to id="1621fc42db83c89"/>
+        <to id="1621fc42db83c8a"/>
+        <to id="1621fc46e423c8c"/>
+        <to id="1621fc47f193c8d"/>
+        <to id="1621fc485e53c8e"/>
+        <to id="1621fc48e313c8f"/>
+        <to id="1621fc684673c90"/>
+        <to id="1621fc6972f3c91"/>
+        <to id="1621fc6acca3c92"/>
+        <to id="1622ebe3fa7b53a"/>
+        <to id="1622ebe5890b53b"/>
+        <to id="1622ebf633bb53d"/>
+        <to id="1622ebf837bb53e"/>
+        <to id="1622ebffa87b53f"/>
+        <to id="1622ec064bbb540"/>
+        <to id="1622ec064bbb541"/>
+        <to id="1622ec064bbb542"/>
+        <to id="1622ec064bbb543"/>
+        <to id="1622ec064bbb544"/>
+        <to id="1622ec089f1b545"/>
+        <to id="1622ec089f1b546"/>
+        <to id="1622ec089f1b547"/>
+        <to id="1622ec089f1b548"/>
+        <to id="1622ec089f1b549"/>
+        <to id="1622ec09459b54a"/>
+        <to id="1622ec09459b54b"/>
+        <to id="1622ec09459b54c"/>
+        <to id="1622ec09459b54d"/>
+        <to id="1622ec09459b54e"/>
+        <to id="1622ec16bdbb54f"/>
+        <to id="1622ec18340b550"/>
+        <to id="1689f34f64d1243"/>
+        <to id="1689f34f64d1246"/>
+        <to id="1689f34f64d1245"/>
+        <to id="1689f34f64d1242"/>
+        <to id="1689f34f64d1244"/>
+        <to id="1689f35381b1247"/>
+        <to id="1689f35442d1248"/>
+        <to id="1689f3581ed1249"/>
+        <to id="1689f3581ed124a"/>
+        <to id="1689f3581ed124b"/>
+        <to id="1689f3581ed124c"/>
+        <to id="1689f359ce3124d"/>
+        <to id="1689f35a51c124e"/>
+        <to id="1689f36356e124f"/>
+        <to id="1689f36356e1250"/>
+        <to id="1689f36356f1251"/>
+        <to id="1689f36356f1252"/>
+        <to id="1689f36356f1253"/>
+        <to id="1689f36356f1254"/>
+        <to id="1689f3647b91255"/>
+        <to id="1689f3647b91256"/>
+        <to id="1689f3647b91257"/>
+        <to id="1689f3647b91258"/>
+        <to id="1689f3647b91259"/>
+        <to id="1689f3647b9125a"/>
+        <to id="1689f3657a7125b"/>
+        <to id="1689f3657a7125c"/>
+        <to id="1689f3657a7125d"/>
+        <to id="1689f3657a7125e"/>
+        <to id="1689f3657a7125f"/>
+        <to id="1689f3657a71260"/>
+        <to id="1689f3665421261"/>
+        <to id="1689f3665421262"/>
+        <to id="1689f3665421263"/>
+        <to id="1689f3665421264"/>
+        <to id="1689f3665421265"/>
+        <to id="1689f3665421266"/>
+        <to id="1689f3689891267"/>
+        <to id="1689f368d641268"/>
+        <to id="1689f3697271269"/>
+        <to id="1689f36b012126a"/>
+        <to id="1689f36b9af126b"/>
+        <to id="1689f36c991126c"/>
+        <to id="1689f36cd9a126d"/>
+        <to id="1689f36da9d126e"/>
+        <to id="1689f36defd126f"/>
+        <to id="1689f36e2f01270"/>
+        <to id="1689f36f8741271"/>
+        <to id="1689f370be81272"/>
+        <to id="1689f3722481273"/>
+        <to id="1689f374b8b1274"/>
+        <to id="1689f3766d01275"/>
+        <to id="1689f376b1e1276"/>
+        <to id="1689f376f111277"/>
+        <to id="1689f37779b1278"/>
+        <to id="1689f3790031279"/>
+        <to id="1689f379003127a"/>
+        <to id="1689f379003127b"/>
+        <to id="1689f379003127c"/>
+        <to id="1689f379003127d"/>
+        <to id="1689f379004127e"/>
+        <to id="1689f37b26d127f"/>
+        <to id="1689f37b26d1280"/>
+        <to id="1689f37b26d1281"/>
+        <to id="1689f37b26d1282"/>
+        <to id="1689f37b26d1283"/>
+        <to id="1689f37b26d1284"/>
+        <to id="1689f37b26d1285"/>
+        <to id="1689f37b26d1286"/>
+        <to id="1689f37b26d1287"/>
+        <to id="1689f37eb6f1288"/>
+        <to id="1689f37eb6f1289"/>
+        <to id="1689f37eb6f128b"/>
+        <to id="1689f37eb6f128c"/>
+        <to id="1689f37eb6f128d"/>
+        <to id="1689f37eb6f128e"/>
+        <to id="1689f37eb6f128f"/>
+        <to id="1689f37eb6f1290"/>
+        <to id="1689f37f9c01291"/>
+        <to id="1689f37f9c01292"/>
+        <to id="1689f37f9c01293"/>
+        <to id="1689f37f9c01294"/>
+        <to id="1689f37f9c01295"/>
+        <to id="1689f37f9c01296"/>
+        <to id="1689f37f9c01297"/>
+        <to id="1689f37f9c01298"/>
+        <to id="1689f37f9c01299"/>
+        <to id="1689f380e13129a"/>
+        <to id="1689f380e13129b"/>
+        <to id="1689f380e13129c"/>
+        <to id="1689f380e13129d"/>
+        <to id="1689f380e13129e"/>
+        <to id="1689f380e13129f"/>
+        <to id="1689f380e1312a0"/>
+        <to id="1689f380e1312a1"/>
+        <to id="1689f380e1312a2"/>
+        <to id="1689f38124212a3"/>
+        <to id="1689f38124212a4"/>
+        <to id="1689f38124212a5"/>
+        <to id="1689f38124212a6"/>
+        <to id="1689f38124212a7"/>
+        <to id="1689f38124212a8"/>
+        <to id="1689f38124212a9"/>
+        <to id="1689f38124212aa"/>
+        <to id="1689f38124212ab"/>
+        <to id="1689f382e1112ac"/>
+        <to id="1689f382e1112ad"/>
+        <to id="1689f382e1112ae"/>
+        <to id="1689f382e1112af"/>
+        <to id="1689f382e1112b0"/>
+        <to id="1689f382e1112b1"/>
+        <to id="1689f3846b712b2"/>
+        <to id="1689f3857ae12b3"/>
+        <to id="1689f385cc912b4"/>
+        <to id="1689f38662112b5"/>
+        <to id="1689f386a3612b6"/>
+        <to id="1689f3870fb12b7"/>
+        <to id="1689f38813912b8"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b863a05f0335" name="3k_glb_smallrock_01_parent_a">
+      <ECBuilding key="3k_glb_smallrock_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.374297142 0 0.478752136" rotation="-11.3793755 -50.3797417 -13.0416393" scale="1.94880545 1.94880509 1.94880521" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_01"/>
+    </entity>
+    <entity id="168b863a05f0336" name="shrub_grassclump_thick_a_child_a">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_a"/>
+      <ECTransform position="-0.673921347 0.283510208 0.101503372" rotation="-74.3941956 234.496948 -243.083359" scale="0.513135254 0.513134778 0.513135254" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b863a05f0335">
+        <to id="168b863a05f0336"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

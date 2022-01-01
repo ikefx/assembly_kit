@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="1658f1e75e43193">
+      <ECBuilding key="3k_prop_global_wood_pile_02" damage="100" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.15026855 0 -1.25366211" rotation="0 88.0002136 0" scale="2 2 2" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1658f1e75e43194">
+      <ECVFX vfx="3k_main_generic_fire_smoke_loop" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-2.1697998 0 -2.59204102" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1658f1e75e43195">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_battlecrack/cty_stone_floor_impactcrater_decal_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="1.15026855 0 1.25354004" rotation="-2.87871029e-12 -90 0" scale="17.9158955 1 17.9158955" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

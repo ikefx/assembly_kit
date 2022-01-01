@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="166e377f9762568">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-11.2098303 0 12.5951166" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="21.2585983" y="-0.175821304"/>
+          <point x="21.8366776" y="-28.0078926"/>
+          <point x="-0.422531128" y="-27.8065338"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="166e38c84cb1e95">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi2_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4.54056263 0 4.07494545" rotation="0 91.4696732 0" scale="3.49688363 2.49999952 8.28885651" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="166e38c8f761e96">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi2_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4.65509367 0 -11.2734184" rotation="0 87.9392929 0" scale="4.90861034 2.49999952 9.03753567" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

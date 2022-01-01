@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="16402fbb3516915">
+      <ECLivePrefab entity_map="">
+        <prefab id="16402f88e1f655a">
+          <ECPrefab key="wa_market_wave_01"/>
+          <ECTransform position="1124.18005 -2.28881836e-05 873.722656" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+          <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+        </prefab>
+      </ECLivePrefab>
+      <ECTransform position="0 0 15.1386719" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="16402fbb3516916">
+      <ECPrefab key="wa_tent_m_silk_06"/>
+      <ECTransform position="-13.7980957 7.62939453e-06 -8.8949585" rotation="0 -13.9999914 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="16402fbb35c6938">
+      <ECPrefab key="wa_tent_s_silk_01"/>
+      <ECTransform position="11.5195313 3.05175781e-05 -16.078064" rotation="0 264.000092 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="16402fbb364694c">
+      <ECPrefab key="wa_tent_s_fish_01"/>
+      <ECTransform position="7.94372559 2.67028809e-05 -10.6566772" rotation="0 218 0" scale="1.00000083 1 1.00000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="16402fbb36f696e">
+      <ECPrefab key="wa_tent_s_silk_02"/>
+      <ECTransform position="13.5078125 3.81469727e-05 -21.5471802" rotation="0 -63.9999733 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="16402fbb379698e">
+      <ECPrefab key="wa_tent_m_spice_05"/>
+      <ECTransform position="3.05065918 0 -6.59570313" rotation="0 218 0" scale="1.00000048 1 1.00000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="16402fbb38669cc">
+      <ECPrefab key="wa_tent_s_silk_02"/>
+      <ECTransform position="13.7980957 7.62939453e-06 -30.2773438" rotation="0 141.000031 0" scale="1.0000006 1 1.0000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="16402fbb3516915">
+        <to id="16402fbb35c6938"/>
+        <to id="16402fbb364694c"/>
+        <to id="16402fbb3516916"/>
+        <to id="16402fbb36f696e"/>
+        <to id="16402fbb379698e"/>
+        <to id="16402fbb38669cc"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

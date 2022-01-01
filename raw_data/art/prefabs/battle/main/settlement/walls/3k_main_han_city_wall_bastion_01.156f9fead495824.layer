@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="156fa092c615829">
+      <ECBuilding key="3k_citywall_wallbastion" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECWall weak_wall="false" ai_breachable="false" dockable="true"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 -3.81469727e-06 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_wallbastion"/>
+    </entity>
+    <entity id="1630e0a05787ad0">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="16.9988346 1.46564031 0.0019068718" rotation="89.9999924 0 0" scale="1 0.999999702 0.999999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e0b2b557ad1">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="11.9657078 1.46564019 0.0019068718" rotation="89.9999771 0 0" scale="1 0.999999583 0.999999583" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e0b3ba37ad2">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.00530815 1.46564031 0.0019068718" rotation="89.9999771 0 0" scale="1 0.999999464 0.999999464" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e0ba88a7ad5">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.01676798 8.00307941 -1.26169169" rotation="-2.73207552e-05 180 -1.36603776e-05" scale="0.699999988 0.699999988 0.699999988" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e0cceb77ad6">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="12.0129976 8.00307941 -1.26169145" rotation="-2.73207552e-05 180 -1.36603776e-05" scale="0.699999988 0.699999988 0.699999988" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+    <entity id="1630e0cf4607ad7">
+      <ECBuilding key="3k_citywall_trapdoor" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="17.0183887 8.00307941 -1.26169157" rotation="-2.73207552e-05 180 -1.36603776e-05" scale="0.699999988 0.699999988 0.699999988" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_trapdoor"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="156fa092c615829">
+        <to id="1630e0b3ba37ad2"/>
+        <to id="1630e0cceb77ad6"/>
+        <to id="1630e0ba88a7ad5"/>
+        <to id="1630e0b2b557ad1"/>
+        <to id="1630e0a05787ad0"/>
+        <to id="1630e0cf4607ad7"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

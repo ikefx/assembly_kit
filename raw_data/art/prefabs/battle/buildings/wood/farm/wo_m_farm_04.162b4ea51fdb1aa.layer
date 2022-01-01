@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="162b4ea51f0b165">
+      <ECPrefab key="gen_cargo01" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-5.6473999 0 -6.08469009" rotation="1.27441008e-05 -24.6966228 1.7225906e-05" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162b4ea51fab19e">
+      <ECPrefab key="gen_planks01" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-8.66060638 0.706237435 -4.06524277" rotation="-7.16164017 28.4048424 71.4218521" scale="0.999999344 0.999999285 0.999999225" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd624998b7c3" name="buildings">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162fd6268b9b7c4">
+      <ECBuilding key="s_building16" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.49695587 0 -3.2808876" rotation="0 180.058594 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="s_building16"/>
+    </entity>
+    <entity id="162fd62bbf3b7cf" name="decals">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162fd62cebab7d4">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi2_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-8.24962997 -3.35746927e-06 8.42424297" rotation="0 -88.9022827 0" scale="4 1.04150689 10" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebab7d2">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_earth2_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.41274571 -9.73649094e-07 -2.81830287" rotation="0 269.678558 0" scale="4.46941996 1.04150689 10" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebab7d5">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi3_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="12.5941334 -1.76825586e-06 -2.7470243" rotation="0 269.787842 0" scale="5.06703043 1.04150689 10.000001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebab7d3">
+      <ECDecal model_path="rigidmodels/decals/path_decals/mud_path/battle_gen_path_02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="true"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-10.4160385 0.225149989 -3.1944313" rotation="0 174.862915 0" scale="4.44330168 0.227740273 2.87673473" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebbb7d7">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi2_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="12.5657377 -1.76825586e-06 7.51342678" rotation="0 269.660217 0" scale="3.99999952 1.04150689 9.99999809" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebbb7d8">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_earth1_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-8.11800671 -1.76825586e-06 2.6752007" rotation="0 -89.3660278 0" scale="6.36801052 1.04150677 10" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebbb7d9">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_earth1_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.22118163 -9.73649094e-07 7.45560646" rotation="0 -89.9072113 0" scale="3.80416751 1.04150689 10" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebab7d0">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi3_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="12.6480331 -1.76825586e-06 2.66619706" rotation="0 269.787842 0" scale="5.0938735 1.04150689 9.99999905" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebab7d1">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_millet1_decals.rigid_model_v2" parallax_scale="0" tiling="0.200000003" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.27557015 -9.73649094e-07 2.45411396" rotation="0 269.269104 0" scale="5.10734892 1.04150689 10" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd62cebbb7d6">
+      <ECDecal model_path="rigidmodels/decals/path_decals/mud_path/battle_gen_path_02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="true"/>
+      <ECBattleProperties visible_beyond_outfield="true"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-10.4860001 0.225149989 -6.28661728" rotation="0 241.03392 0" scale="4.44330072 0.227740243 2.87673473" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="true" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162fd63035fb7eb" name="incidentals">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162fd63146db7f9">
+      <ECBuilding key="3k_prop_global_wooden_box_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.88847351 0 -5.09303665" rotation="2.55694962 179.378708 357.306946" scale="1 1.00000024 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_wooden_box_04"/>
+    </entity>
+    <entity id="162fd63146db7f8">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-10.3452606 0 -7.36076736" rotation="-4.7071476 181.426208 -0.0444918498" scale="1.19406557 0.974844515 1.19406641" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="162fd63146db7f3">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-4.23147631 0 -7.53776979" rotation="-4.7071476 181.426208 -0.0444918498" scale="1.19406509 1.10620201 1.19406593" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="162fd63146cb7ec">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-12.7136002 0 -4.78847122" rotation="-5.57234144 92.9455032 -0.865261972" scale="1.19406545 0.974844515 1.19406581" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="162fd63146cb7ed">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-12.5937271 0 -2.4572258" rotation="-5.57235479 92.9455032 -0.865275621" scale="1.19406545 0.974844635 1.19406581" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="162fd63146cb7ef">
+      <ECBuilding key="3k_prop_global_wheelbarrow01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-10.8688126 0 -1.86588669" rotation="3.48857355 119.800636 2.16548395" scale="0.999999404 1.00000036 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_wheelbarrow01"/>
+    </entity>
+    <entity id="162fd63146db7fa">
+      <ECBuilding key="3k_prop_global_wooden_box_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.9907074 0 -4.25338364" rotation="0.0213784911 180.961899 0.012171397" scale="1.00000143 0.999999881 1.00000119" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_wooden_box_01"/>
+    </entity>
+    <entity id="162fd63146db7fc">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.64235687 0 -7.47780991" rotation="-4.7071476 181.426178 -0.0444918498" scale="1.19406497 0.974844635 1.19406545" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="162fd63146cb7f0">
+      <ECBuilding key="3k_propcity_winejar1_broken01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-11.7655258 0 -6.61704636" rotation="9.00034428 256.916351 352.081696" scale="0.999999046 1 0.999999583" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_winejar1_broken01"/>
+    </entity>
+    <entity id="162fd63146db7f5">
+      <ECBuilding key="3k_propcity_winejar1_broken01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-12.2381058 0 -6.11961746" rotation="9.00035858 256.916412 352.081696" scale="0.999998987 1 0.999999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_winejar1_broken01"/>
+    </entity>
+    <entity id="162fd63146db7f6">
+      <ECBuilding key="3k_prop_global_plow_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="1.84007263 -0.0614064485 6.11945009" rotation="7.1070659e-05 13.32057 7.82015049e-05" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_plow_01"/>
+    </entity>
+    <entity id="162fd63146cb7ee">
+      <ECBuilding key="3k_propcity_winejar1" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-8.89598083 0.225149989 -3.30792618" rotation="-22.8788509 -84.2577133 22.273468" scale="0.999999821 1 0.999999464" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_winejar1"/>
+    </entity>
+    <entity id="162fd63146cb7f1">
+      <ECBuilding key="3k_prop_city_pot01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-9.07579041 -0.0936170816 -0.930355072" rotation="1.36603776e-05 215.272278 1.36603776e-05" scale="0.999999702 0.999999762 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_city_pot01"/>
+    </entity>
+    <entity id="162fd63146db7f4">
+      <ECBuilding key="3k_prop_global_wooden_box_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.61639404 0 -1.56777573" rotation="0.0383720025 147.141327 359.925446" scale="1.00000036 0.999999225 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_wooden_box_03"/>
+    </entity>
+    <entity id="162fd63146db7fb">
+      <ECBuilding key="3k_propcity_winejar1_broken01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-12.2830582 0 -6.76283646" rotation="-27.2453938 -86.2625122 28.5816898" scale="0.999998808 1 0.999999642" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_propcity_winejar1_broken01"/>
+    </entity>
+    <entity id="162fd63146db7f7">
+      <ECBuilding key="3k_prop_global_pot_cover01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-9.02086639 0.500985861 -0.932758331" rotation="0 -54.091568 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_pot_cover01"/>
+    </entity>
+    <entity id="162fd631e1eb7fd" name="logic">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162fcf35414a7d1">
+      <ECNoGoRegion/>
+      <ECTransform position="-12.9905729 0 -2.45052719" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="3.73174477" y="1.53874493"/>
+          <point x="9.32762623" y="1.06359768"/>
+          <point x="8.9562254" y="-5.37445259"/>
+          <point x="-0.557607651" y="-5.12952328"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="1656b2c24d7c368" name="fences">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1656b2d4ed0c369">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.30970526 0 -4.93617487" rotation="0 178 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b2d740fc36a">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="3.41904926 0 -5.1347599" rotation="0 -1.99997854 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b2d8ab4c36b">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="3.33254433 0 -5.05328274" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b2d91d9c36c">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="1.33839869 0 -5.12534332" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b2daa4fc36d">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.56019187 0 -5.20691967" rotation="0 182 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b302684c36f">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.34541512 0 -3.00453758" rotation="0 88.0000153 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b303044c370">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.33886385 0 -0.916511536" rotation="0 88.0000153 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b305774c371">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="5.33386707 0 -0.633363247" rotation="0 2 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b30f86ec372">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.1768131 0 -0.245088577" rotation="0 -88.0000153 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b310c8bc373">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.0654869 0 1.7586422" rotation="0 -88.0000153 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b311663c374">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.0720978 0 3.66745663" rotation="0 -88.0000153 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b3143a8c375">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.1691751 0 6.61267281" rotation="180 270 -180" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b314b3fc376">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.1411943 0 8.47730255" rotation="180 270 -180" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b315e58c377">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.1534576 0 10.4083805" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b31648dc378">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-11.1394424 0 10.3558731" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b316df1c379">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-9.14706612 0 10.3609562" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b317d55c37a">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-7.04646301 0 10.3155432" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b318dfcc37b">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-5.16789579 0 10.3000593" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b31afbac37c">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.19421339 0 10.1321287" rotation="0 91.9999847 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b332af5c381">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="2.87713218 3.81469727e-06 -0.505310535" rotation="180 270 -180" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b3344eec382">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_b"/>
+      <ECTransform position="-0.815732956 1.90734863e-06 -0.576249123" rotation="180 270 -180" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b33a6bbc383">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="15.2906427 1.90734863e-06 -5.27659988" rotation="0 268 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b33c79dc385">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="10.9133301 -3.81469727e-06 -5.38803673" rotation="180 270 -180" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b33e54fc386">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="17.8478088 0 -3.19858265" rotation="0 2 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b33f295c387">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="17.9147015 5.7220459e-06 2.14920235" rotation="0 0 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b341946c388">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_b"/>
+      <ECTransform position="16.5721684 3.81469727e-06 4.8483181" rotation="0 90 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b342449c389">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_b"/>
+      <ECTransform position="7.62891054 -7.62939453e-06 1.61303234" rotation="0 178 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b3449bdc38a">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_b"/>
+      <ECTransform position="-4.80879831 3.81469727e-06 6.05650711" rotation="0 86.0000153 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b348b00c38c">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_c"/>
+      <ECTransform position="-3.30116081 0 4.88700962" rotation="0 -1.99997854 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b34ac65c38d">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_c"/>
+      <ECTransform position="-12.2155933 1.90734863e-06 -0.632663727" rotation="0 86.0000153 0" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="1656b34de25c38e">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="13.3718319 0 9.39115334" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34de25c38f">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="15.4524822 0 9.38173676" rotation="0 -1.99997854 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34de25c390">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="11.4732409 0 9.30957699" rotation="0 182 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34de25c391">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="15.3659773 0 9.46321392" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34f48ec392">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="5.47830725 0 9.39115334" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34f48ec393">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.47245216 0 9.46321392" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34f48ec394">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.55895805 0 9.38173676" rotation="0 -1.99997854 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b34f48ec395">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="3.57971621 0 9.30957699" rotation="0 182 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b351598c396">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.53000319 0 9.45309258" rotation="0 182 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b353323c397">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-2.56404662 0 9.39974976" rotation="0 91.9999847 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b355f06c398">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="17.34659 0 9.2371769" rotation="0 91.9999847 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1656b357a17c399">
+      <ECBuilding key="3k_prop_global_small_fence01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-2.93619061 0 3.65125179" rotation="0 91.9999847 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_global_small_fence01"/>
+    </entity>
+    <entity id="1671c336dafb8d3">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="17.9226494 0 -5.62340546" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-20.6259842" y="0.183503628"/>
+          <point x="-20.6993847" y="5.13814545"/>
+          <point x="-31.3793869" y="5.2115469"/>
+          <point x="-31.4160881" y="16.3686619"/>
+          <point x="-20.9562912" y="16.2585602"/>
+          <point x="-20.4791775" y="15.5979404"/>
+          <point x="-0.367008209" y="15.2676315"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="1671c3386a3b8d4">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-3.89916968 0 -7.85637617" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-9.46886921" y="0.513814449"/>
+          <point x="-9.10185814" y="5.54185629"/>
+          <point x="-5.90886879" y="8.18433094"/>
+          <point x="0.844121695" y="7.96412563"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="162fd624998b7c3">
+        <to id="162fd6268b9b7c4"/>
+      </from>
+      <from id="162fd62bbf3b7cf">
+        <to id="162fd62cebab7d4"/>
+        <to id="162fd62cebab7d2"/>
+        <to id="162fd62cebab7d5"/>
+        <to id="162fd62cebab7d3"/>
+        <to id="162fd62cebbb7d7"/>
+        <to id="162fd62cebbb7d8"/>
+        <to id="162fd62cebbb7d9"/>
+        <to id="162fd62cebab7d0"/>
+        <to id="162fd62cebab7d1"/>
+        <to id="162fd62cebbb7d6"/>
+      </from>
+      <from id="162fd63035fb7eb">
+        <to id="162fd63146db7f9"/>
+        <to id="162fd63146db7f8"/>
+        <to id="162fd63146db7f3"/>
+        <to id="162fd63146cb7ec"/>
+        <to id="162fd63146cb7ed"/>
+        <to id="162fd63146cb7ef"/>
+        <to id="162fd63146db7fa"/>
+        <to id="162fd63146db7fc"/>
+        <to id="162fd63146cb7f0"/>
+        <to id="162fd63146db7f5"/>
+        <to id="162fd63146db7f6"/>
+        <to id="162fd63146cb7ee"/>
+        <to id="162fd63146cb7f1"/>
+        <to id="162fd63146db7f4"/>
+        <to id="162fd63146db7fb"/>
+        <to id="162fd63146db7f7"/>
+      </from>
+      <from id="162fd631e1eb7fd">
+        <to id="162fcf35414a7d1"/>
+      </from>
+      <from id="1656b2c24d7c368">
+        <to id="1656b2d4ed0c369"/>
+        <to id="1656b2d740fc36a"/>
+        <to id="1656b2d8ab4c36b"/>
+        <to id="1656b2d91d9c36c"/>
+        <to id="1656b2daa4fc36d"/>
+        <to id="1656b302684c36f"/>
+        <to id="1656b303044c370"/>
+        <to id="1656b305774c371"/>
+        <to id="1656b30f86ec372"/>
+        <to id="1656b310c8bc373"/>
+        <to id="1656b311663c374"/>
+        <to id="1656b3143a8c375"/>
+        <to id="1656b314b3fc376"/>
+        <to id="1656b315e58c377"/>
+        <to id="1656b31648dc378"/>
+        <to id="1656b316df1c379"/>
+        <to id="1656b317d55c37a"/>
+        <to id="1656b318dfcc37b"/>
+        <to id="1656b31afbac37c"/>
+        <to id="1656b332af5c381"/>
+        <to id="1656b3344eec382"/>
+        <to id="1656b33a6bbc383"/>
+        <to id="1656b33c79dc385"/>
+        <to id="1656b33e54fc386"/>
+        <to id="1656b33f295c387"/>
+        <to id="1656b341946c388"/>
+        <to id="1656b342449c389"/>
+        <to id="1656b3449bdc38a"/>
+        <to id="1656b348b00c38c"/>
+        <to id="1656b34ac65c38d"/>
+        <to id="1656b34de25c38e"/>
+        <to id="1656b34de25c38f"/>
+        <to id="1656b34de25c390"/>
+        <to id="1656b34de25c391"/>
+        <to id="1656b34f48ec392"/>
+        <to id="1656b34f48ec393"/>
+        <to id="1656b34f48ec394"/>
+        <to id="1656b34f48ec395"/>
+        <to id="1656b351598c396"/>
+        <to id="1656b353323c397"/>
+        <to id="1656b355f06c398"/>
+        <to id="1656b357a17c399"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

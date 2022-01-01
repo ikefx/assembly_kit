@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8efa7b99fa2">
+      <ECVFX vfx="3k_main_enviro_flies" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="-3.51476955 0 2.22550011" rotation="-49.051712 189.345428 -180.766907" scale="0.859472811 0.859472156 0.859472156" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8efa7b99fa3">
+      <ECVegetation key="trees/castanopsis/castanopsis_h"/>
+      <ECTransform position="-0.383335769 -0.136649609 3.81575799" rotation="-88.1259537 138.217133 -278.555573" scale="0.511513293 0.511513114 0.51151365" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8efa7ba9fa4">
+      <ECVegetation key="trees/castanopsis/castanopsis_j"/>
+      <ECTransform position="-1.2607789 -1.58947325 1.75671792" rotation="-88.1259537 138.217133 -278.555573" scale="0.742257655 0.742257535 0.742258191" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8efa7ba9fa5" name="3k_glb_rock01_parent_a">
+      <ECBuilding key="3k_glb_rock01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="1.62299037 5.96046448e-08 1.05273485" rotation="49.6139717 186.51767 172.399399" scale="1.16350377 1.16350472 1.16350484" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock01"/>
+    </entity>
+    <entity id="168b8efa7ba9fa6">
+      <ECVegetation key="trees/castanopsis/castanopsis_i"/>
+      <ECTransform position="-1.85787737 0.155910015 3.00386906" rotation="-88.1259537 138.217133 -278.555573" scale="0.715837061 0.715836763 0.715837479" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8efa7ba9fa7">
+      <ECVegetation key="trees/castanopsis/castanopsis_k"/>
+      <ECTransform position="-0.577198088 -1.24123669 0.44571805" rotation="-88.1259537 138.217133 -278.555573" scale="0.804661036 0.804660916 0.804661632" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8efa7ba9fa5">
+        <to id="168b8efa7b99fa2"/>
+        <to id="168b8efa7b99fa3"/>
+        <to id="168b8efa7ba9fa4"/>
+        <to id="168b8efa7ba9fa6"/>
+        <to id="168b8efa7ba9fa7"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

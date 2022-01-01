@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="1626c598f428897">
+      <ECBuilding key="3k_prop_city_small_incense_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.0173890218 -1.572806 -0.0454930477" rotation="0 -38.9999733 0" scale="1.96213424 2.42050791 1.96213436" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_prop_city_small_incense_01"/>
+    </entity>
+    <entity id="165d875041d9da9">
+      <ECBuilding key="3k_cityprop_metalore02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0.649783492 0" rotation="0 -44.9999962 0" scale="0.509649098 0.413136423 0.509648979" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_cityprop_metalore02"/>
+    </entity>
+    <entity id="165d8757c989daa">
+      <ECVFX vfx="3k_main_enviro_incense_smoke_circle" autoplay="true" scale="1" instance_name=""/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0 0.548713565 0" rotation="0 44.9999962 0" scale="1.96213448 2.42050791 1.96213424" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="165d875041d9da9">
+        <to id="1626c598f428897"/>
+        <to id="165d8757c989daa"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

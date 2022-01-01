@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8ed6b789ebb">
+      <ECVegetation key="trees/castanopsis/castanopsis_h"/>
+      <ECTransform position="1.34215117 1.11819351 -2.78971243" rotation="-82.3304062 -69.1904068 86.6320419" scale="0.261958539 0.203115836 0.254646242" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8ed6b789ebc">
+      <ECVegetation key="trees/castanopsis/castanopsis_j"/>
+      <ECTransform position="2.05574775 1.09631968 -2.55197692" rotation="-15.6111584 -90 0" scale="0.538725972 0.40126279 0.551682532" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8ed6b789ebd" name="3k_glb_rock02_parent_b">
+      <ECBuilding key="3k_glb_rock02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-2.49870825 0 -1.24089348" rotation="-79.1688004 -81.4293365 85.6380539" scale="1.89904833 2.87252426 1.89904892" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock02"/>
+    </entity>
+    <entity id="168b8ed6b789ebe">
+      <ECVegetation key="trees/castanopsis/castanopsis_k"/>
+      <ECTransform position="-0.122774124 0.955174267 -2.8152957" rotation="-11.58741 -4.88150549 -2.38179517" scale="0.526834488 0.364160419 0.53239572" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8ed6b789ebd">
+        <to id="168b8ed6b789ebb"/>
+        <to id="168b8ed6b789ebc"/>
+        <to id="168b8ed6b789ebe"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

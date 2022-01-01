@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="167888c368c742a" name="civilians">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="167888c5c49742b">
+      <ECCivilianDeployment type="" amount=""/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-10.5887222" y="-14.2904377"/>
+          <point x="-31.3873634" y="1.78274345"/>
+          <point x="-20.7652702" y="15.607542"/>
+        </polyline>
+      </ECPolyline>
+      <ECTransform position="25.6465797 0 15.9876986" rotation="0 -36.7442474 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+    </entity>
+    <entity id="167888c6f0e742c">
+      <ECCivilianShelter/>
+      <ECPolyline>
+        <polyline closed="false">
+          <point x="0" y="0"/>
+          <point x="-6.75151253" y="-7.92233086"/>
+        </polyline>
+      </ECPolyline>
+      <ECTransform position="2.40761185 0 0.00147891045" rotation="0 -36.7442474 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+    </entity>
+    <entity id="167888c97b4742d">
+      <ECNoGoRegion/>
+      <ECTransform position="-0.0731863379 0 -5.39458036" rotation="0 -36.7442474 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="4.18663216" y="-3.35758591"/>
+          <point x="-0.433290482" y="-9.63998508"/>
+          <point x="-5.02394581" y="-6.02182865"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="167888cc6bc742e" name="vegex">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="167888cfea4742f">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-0.614777803 0 16.3624516" rotation="0 -36.7442474 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="20.8686333" y="-16.4968204"/>
+          <point x="10.2458735" y="-30.706562"/>
+          <point x="-10.5048141" y="-14.1934061"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="167888d11647430">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="-2.95149684 0 16.8478355" rotation="0 -36.7442474 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-10.503232" y="-14.4187241"/>
+          <point x="-25.2032833" y="-3.69132233"/>
+          <point x="-13.8555584" y="10.572525"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="167888d38f97431">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="5.54385233 0 -5.58064556" rotation="0 -36.7442474 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-5.19814825" y="6.47945118"/>
+          <point x="-13.4203568" y="12.9023418"/>
+          <point x="-19.5588093" y="4.22937965"/>
+          <point x="-11.0946827" y="-1.68827438"/>
+          <point x="-4.61730528" y="-5.71443939"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="167888c368c742a">
+        <to id="167888c5c49742b"/>
+        <to id="167888c6f0e742c"/>
+      </from>
+      <from id="167888cc6bc742e">
+        <to id="167888cfea4742f"/>
+        <to id="167888d11647430"/>
+        <to id="167888d38f97431"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

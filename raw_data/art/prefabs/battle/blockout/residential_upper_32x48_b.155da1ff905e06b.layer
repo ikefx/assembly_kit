@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="22">
+  <entities>
+    <entity id="155da202ca0e06c">
+      <ECNoGoRegion/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="48"/>
+          <point x="32" y="48"/>
+          <point x="32" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="155da2352e8e073">
+      <ECBuilding key="civic_wall_corner" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="11 0.000621795654 14" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="civic_wall_corner"/>
+    </entity>
+    <entity id="155da2352e9e074">
+      <ECBuilding key="civic_wall_straight" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="8 0.00064468378 11.9999962" rotation="0 90 0" scale="0.999999821 1 0.999999821"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="civic_wall_straight"/>
+    </entity>
+    <entity id="155da2374d1e075">
+      <ECBuilding key="civic_wall_corner" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21 0.000686645508 12" rotation="0 90 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="civic_wall_corner"/>
+    </entity>
+    <entity id="155da2374d1e076">
+      <ECBuilding key="civic_wall_straight" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="21.0000019 0.000686645508 12" rotation="0 90 0" scale="0.99999994 1 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="civic_wall_straight"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

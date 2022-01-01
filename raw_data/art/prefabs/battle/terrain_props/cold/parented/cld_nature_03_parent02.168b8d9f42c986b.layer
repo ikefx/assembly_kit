@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8d9f42c9869" name="3k_glb_smallrock_02_parent_a">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.0783576965 0 -0.329801083" rotation="0 -56.7202148 0" scale="1.50000048 1.5 1.50000048" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="168b8d9f42c986a" name="huangshan_pine_n_child_a">
+      <ECVegetation key="trees/pine_huangshan/huangshan_pine_n"/>
+      <ECTransform position="0.310289621 0.344875991 0.328637123" rotation="0 -40.8596992 0" scale="0.614500463 0.614500701 0.614500463" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8d9f42c9869">
+        <to id="168b8d9f42c986a"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

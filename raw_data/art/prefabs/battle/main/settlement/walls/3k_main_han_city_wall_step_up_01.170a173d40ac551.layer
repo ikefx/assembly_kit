@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="170a173d40ac552" name="Reference">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="false" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="170a17cf7aac592">
+      <ECBuilding key="3k_citywall_step_up" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citywall_step_up"/>
+    </entity>
+    <entity id="170a17d3eb8c593">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/3k_citywall_trapdoor/3k_citywall_trapdoor_piece01_destruct01.wsmodel" animation_path=""/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="2 8.16303158 -2" rotation="0 180.000015 0" scale="0.746486008 0.746486008 0.746486008" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="170a17d553dc594">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/3k_citywall_trapdoor/3k_citywall_trapdoor_piece01_destruct01.wsmodel" animation_path=""/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="8 16.0083427 -3" rotation="180 270 -180" scale="0.746486008 0.746486008 0.746486008" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="170a17d6c99c595">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/3k_citywall_trapdoor/3k_citywall_trapdoor_piece01_destruct01.wsmodel" animation_path=""/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="5 9.08456898 -3.7092936" rotation="89.9997787 -90 0" scale="0.746484935 0.746485054 0.746484995" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="170a17ddc66c597">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/3k_citywall_trapdoor/3k_citywall_trapdoor_piece01_destruct01.wsmodel" animation_path=""/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="2.6102612 1.20909309 0" rotation="89.999794 0.000248391676 0.00023905604" scale="0.746483624 0.746483564 0.746483445" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

@@ -1,0 +1,228 @@
+<!-- 
+	Filters!in
+		Dry=On
+		Rain=On
+		Snow=On
+		
+		Day=On
+		Night=On
+		
+		Spring=On
+		Summer=On
+		Autumn=On
+		Winter=On
+		
+		Burning=On
+		Burning=Off
+
+	Shaders!
+		billboard
+			Aligns an object to the camera, but not along the y axis.
+			Used for trees. No reason it is limited to that use though.
+			Diffuse texture only.
+
+		night_glow
+			Unlit object that just outputs vertex colour, multiplied up a little.
+			
+		night_glow_texture
+			Unlit object that just outputs texture, multiplied up a little.
+			
+		standard
+			Specifies a texture name, diffuse, normal and gloss maps are derived from this.
+				
+		standard_animated
+			Specifies a texture name, diffuse, normal and gloss maps are derived from this.
+				
+		standard_with_alpha_test
+			As the standard shader, only with an alpha test.
+			
+		standard_ambient
+			As the standard shader, only with an additional ambient map applied.
+			Ambient map specified by a seperate texture name to the diffuse/normal/gloss base.
+
+		standard_simple
+			Specifies a texture name, diffuse map is derived from this.
+			
+		vertex_wind
+			As the standard shader, only vertices are procedurally moved by wind in the vertex shader.
+			
+		non_renderable
+			Dummy used to specify an attach point in a model.
+			
+		burning_texture
+			AKA burning panel.
+			Specifies a texture name, diffuse, normal and gloss maps are derived from this.
+			
+		burning_vertex_alpha
+			AKA burning frame.
+			Specifies a texture name, diffuse, normal and gloss maps are derived from this.
+			
+		rain
+			AKA roof rain shader.
+			Specifies a texture name, diffuse, normal and gloss maps are derived from this.
+			
+		rain_skirt
+			Parameters specified in code.
+			
+		point_light
+			Puts a point light in the model, light is specified by a name used to look up in light.xml
+			
+		campaign_trees
+			Diffuse texture only, but has seasonal variants.
+			In game has no rotation, only position and scale.
+			Fakes movement by animating normals in vertex shader to avoid nasty aliasing artifacts.
+			
+		grass
+			Diffuse texture only.
+
+		texture_combo_vertex_wind
+		texture_combo
+			These two are driven by code at run time. Used for the ui flags.
+			
+		decal_parallax
+		decal_normal
+		decal_offset_height
+		decal_environment
+		decal_waterfall
+			I believe these are dummies used by the terrain system and can be ignored and never used.
+			
+		bow_wave
+			All variables hard coded. Used for the wake on ships. Shouldn't use used in this document.
+			
+		tree
+			AKA Trunk/Branch shader. Weighted and not currently supported.
+			
+		tree_leaf
+			AKA Leaf shader. Weighted and not currently supported.
+		
+    cloth
+      Cloth Shader
+      
+	Example shader:
+	<LIGHTING_MATERIAL material_name = 'standard' filters = 'Rain=On;Snow=On' two_sided = 'true' alpha_blend = 'false'/>
+
+ version_number attribute on the RIGID_MATERIAL tag must match the LIGHTING_MATERIALS_XML_VERSION_NUMBER value defined in Tooldatabuilder (RigidModel_v2.cpp)
+-->
+
+<RIGID_MATERIALS version_number="5" >
+  <RIGID_MATERIAL name ='default'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='standard' />
+  </RIGID_MATERIAL>
+   <RIGID_MATERIAL name ='non_renderable'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='non_renderable' />
+  </RIGID_MATERIAL> 
+	<RIGID_MATERIAL name ='cloth'>
+		<LIGHTING_MATERIAL material_name='default_dry' shader_type='vertex_cloth'/>
+	</RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='cloak'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_cloth'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_cloth'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_cloth'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='collision_shape'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='collision_shape'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='debug_geometry'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='debug_geometry'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='custom_terrain'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='custom_terrain'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='projected_decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='projected_decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tree_branch'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='tree'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tree_leaf'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='tree_leaf'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tree_billboard_material'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='billboard'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ship_ambientmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='standard_ambient'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ui_texture_combo'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='texture_combo'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ui_texture_combo_vertex_wind'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='texture_combo_vertex_wind'/>
+  </RIGID_MATERIAL>
+   <RIGID_MATERIAL name ='vertex_wind'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='vertex_wind'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='tiled_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='tiled_dirtmap'/>
+  </RIGID_MATERIAL>
+   <RIGID_MATERIAL name ='grass_material'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='grass'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='static_point_light'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='point_light'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='decal_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='decal_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_decal_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_decal_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin_decal'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin_decal'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin_decal_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin_decal_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_skin_dirtmap'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_skin_dirtmap'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='water'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='water'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='unlit'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='unlit'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_unlit'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_unlit'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='terrain_blend'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='terrain_blend'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='campaign_trees'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='campaign_trees'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='ignore'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='ignore'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='rope'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='rope'/>
+  </RIGID_MATERIAL>  
+  <RIGID_MATERIAL name ='anisotropic'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='anisotropic'/>
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='campaign_vegetation'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='campaign_vegetation' />
+  </RIGID_MATERIAL>
+  <RIGID_MATERIAL name ='weighted_texture_blend'>
+    <LIGHTING_MATERIAL material_name='default_dry' shader_type='weighted_texture_blend' />
+  </RIGID_MATERIAL>
+</RIGID_MATERIALS>

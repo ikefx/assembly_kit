@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="165ece10fb4715d" name="rocks">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="165ece12fa5715e">
+      <ECBuilding key="3k_yel_rocks02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.531867981 0 -0.662307739" rotation="2.825279 -35.8205032 -10.8598919" scale="0.735287428 0.735287249 0.735287189" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks02"/>
+    </entity>
+    <entity id="165ece13691715f">
+      <ECBuilding key="3k_yel_rocks03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.531867981 0 0.769699097" rotation="-26.3138409 4.78817892 -15.1676655" scale="0.382912368 0.382913172 0.382912666" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks03"/>
+    </entity>
+    <entity id="165ece138197160">
+      <ECBuilding key="3k_yel_rocks03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.514503479 0 -2.12667847" rotation="-28.5453033 -16.5736427 -55.8976326" scale="0.511431634 0.511431754 0.511431277" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks03"/>
+    </entity>
+    <entity id="165ece139837161">
+      <ECBuilding key="3k_yel_rocks03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.408912659 0 2.12667847" rotation="-36.6297379 -1.00183797 0.744757652" scale="0.736238003 0.736238241 0.736237943" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks03"/>
+    </entity>
+    <entity id="166ca04b716ab25" name="Audio">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="166ca04afe4ab24">
+      <ECSoundMarker key="Sound_Environment_Rock_Fall_Debris_Small"/>
+      <ECTransform position="-0.179746866 -2.38418579e-07 0.242797375" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="165ece10fb4715d">
+        <to id="165ece12fa5715e"/>
+        <to id="165ece13691715f"/>
+        <to id="165ece138197160"/>
+        <to id="165ece139837161"/>
+      </from>
+      <from id="166ca04b716ab25">
+        <to id="166ca04afe4ab24"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

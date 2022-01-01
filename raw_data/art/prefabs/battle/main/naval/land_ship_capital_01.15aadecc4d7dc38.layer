@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="23">
+  <entities>
+    <entity id="15aae3895905f17" name="Art">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15aadecc4d7dc37">
+      <ECBuilding key="land_ship_large_2" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="true" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true"/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="2 2 2"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="land_ship_large_2"/>
+    </entity>
+    <entity id="15aae38c3dd5f19" name="Logic">
+      <ECLayer export="true" bmd_export_type=""/>
+    </entity>
+    <entity id="15aae5dea0f6137">
+      <ECGoRegion/>
+      <ECTransform position="-21 0 175" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="42" y="0"/>
+          <point x="52" y="-73"/>
+          <point x="52" y="-104"/>
+          <point x="55" y="-104"/>
+          <point x="55" y="-76"/>
+          <point x="64" y="-76"/>
+          <point x="65" y="-156"/>
+          <point x="60" y="-239"/>
+          <point x="48" y="-241"/>
+          <point x="48" y="-284"/>
+          <point x="-5" y="-285"/>
+          <point x="-7" y="-240"/>
+          <point x="-18" y="-239"/>
+          <point x="-23" y="-158"/>
+          <point x="-22" y="-76"/>
+          <point x="-13" y="-76"/>
+          <point x="-13" y="-104"/>
+          <point x="-10" y="-104"/>
+          <point x="-10" y="-73"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="15aae3895905f17">
+        <to id="15aadecc4d7dc37"/>
+      </from>
+      <from id="15aae38c3dd5f19">
+        <to id="15aae5dea0f6137"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

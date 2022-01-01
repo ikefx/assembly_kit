@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="166445a07ebb26a" name="logic">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="166914ec5bf9ccc" name="emitters">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="166445ae277b26c">
+      <ECBuildingProjectileEmitter/>
+      <ECTransform position="0.924766541 6.55999994 1.08759451" rotation="0 135.000015 0" scale="0.999999642 1 0.999999642" pivot="0 0 0"/>
+    </entity>
+    <entity id="166445a7acfb26b">
+      <ECBuildingProjectileEmitter/>
+      <ECTransform position="4.94129705 6.55999994 1.09294319" rotation="0 45.0000038 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="1679dd9a46d854f">
+      <ECBuildingProjectileEmitter/>
+      <ECTransform position="0.798780441 6.56000233 4.98329878" rotation="0 224.999985 0" scale="0.999999702 0.99999994 0.999999702" pivot="0 0 0"/>
+    </entity>
+    <entity id="166914ee5e39ccd" name="no go">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="166914f13809cce">
+      <ECNoGoRegion/>
+      <ECTransform position="6 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="6"/>
+          <point x="-6" y="6"/>
+          <point x="-6" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="166914e7e4b9ccb" name="art">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="165f7978c578a99">
+      <ECBuilding key="3k_set01_roof02cnr03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4 6.60007572 4" rotation="0 -90 0" scale="0.999999046 0.99999994 0.999999046" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_set01_roof02cnr03"/>
+    </entity>
+    <entity id="165f7978c578a97">
+      <ECBuilding key="3k_set01_roof02cnr03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2 6.60007572 2" rotation="0 90 0" scale="0.999998987 0.99999994 0.999998987" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_set01_roof02cnr03"/>
+    </entity>
+    <entity id="165f7978c578a9a">
+      <ECBuilding key="3k_set01_roof02cnr03m" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4 6.60007572 2" rotation="0 -90 0" scale="0.999999046 0.99999994 0.999999046" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_set01_roof02cnr03m"/>
+    </entity>
+    <entity id="165f7978c578a96">
+      <ECBuilding key="3k_citywall_walltowerlevel1" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="true" id="3k_citywall_walltowerlevel1"/>
+    </entity>
+    <entity id="165f7978c578a98">
+      <ECBuilding key="3k_set01_roof02cnr03m" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2 6.60007572 4" rotation="0 90 0" scale="0.999999046 0.99999994 0.999999046" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_set01_roof02cnr03m"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="166445a07ebb26a">
+        <to id="166914ec5bf9ccc"/>
+        <to id="166914ee5e39ccd"/>
+      </from>
+      <from id="166914ec5bf9ccc">
+        <to id="166445ae277b26c"/>
+        <to id="166445a7acfb26b"/>
+        <to id="1679dd9a46d854f"/>
+      </from>
+      <from id="166914ee5e39ccd">
+        <to id="166914f13809cce"/>
+      </from>
+      <from id="166914e7e4b9ccb">
+        <to id="165f7978c578a99"/>
+        <to id="165f7978c578a97"/>
+        <to id="165f7978c578a9a"/>
+        <to id="165f7978c578a96"/>
+        <to id="165f7978c578a98"/>
+      </from>
+    </Logical>
+    <Transform>
+      <from id="165f7978c578a96">
+        <to id="165f7978c578a97"/>
+        <to id="165f7978c578a98"/>
+        <to id="165f7978c578a99"/>
+        <to id="165f7978c578a9a"/>
+        <to id="166445a7acfb26b"/>
+        <to id="166445ae277b26c"/>
+        <to id="1679dd9a46d854f"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20" id="16a780b7635dd7b">
+  <pc type="QTU::ProjectTileMap">
+    <data terrain_setup="terrain/vistas/cold_1/" global_lighting="" ambient_light_environments="" water_plane_material="materials/campaign_water_plane_default.xml.material"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="35"/>
+  </pc>
+  <pc type="QTU::Terrain">
+    <pc type="QTU::TerrainMap">
+      <data type="LowFrequencyHeight" size="512x512" id="16a780b7634dd77"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="16a780b7634dd78" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+    <pc type="QTU::TerrainMap">
+      <data type="LowFrequencyHeightSea" size="128x128" id="16a780b7635dd79"/>
+      <pc type="QTU::TerrainMapLayer">
+        <data id="16a780b7635dd7a" name="base" visible="1" serializable="1" opacity="1"/>
+      </pc>
+    </pc>
+  </pc>
+</project>

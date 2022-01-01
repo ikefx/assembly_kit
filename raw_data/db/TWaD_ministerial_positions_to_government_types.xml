@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_ministerial_positions_to_government_types>
+<root>
+<edit_uuid>04744ac0-b0db-42f0-a720-dc2d7e071948</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{23c0a271-73da-49f9-aec6-7e2d563722b1}</field_uuid>
+<primary_key>1</primary_key>
+<name>ministerial_position</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>minister_key</column_source_column>
+<column_source_table>ministerial_positions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{b0ce0d2a-cf13-44dd-83b8-34bc9e0a7de2}</field_uuid>
+<primary_key>1</primary_key>
+<name>government_type</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>government_type</column_source_column>
+<column_source_table>government_types</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

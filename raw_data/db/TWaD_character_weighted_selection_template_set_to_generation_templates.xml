@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_character_weighted_selection_template_set_to_generation_templates>
+<root>
+<edit_uuid>7f5ec6ca-9358-4192-95b9-bb6c8197e9b9</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{8b882cb7-3d90-4e53-b759-09ef58efcdb0}</field_uuid>
+<primary_key>1</primary_key>
+<name>character_weighted_selection_template_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_weighted_selection_template_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{92a3cca5-eb88-45c8-bfea-6507ef19d3fb}</field_uuid>
+<primary_key>1</primary_key>
+<name>character_generation_template</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_generation_templates</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="166445a07ebb26a" name="logic">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="166914ec5bf9ccc" name="emitters">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1679ddce5358564">
+      <ECBuildingProjectileEmitter/>
+      <ECTransform position="0.98951757 9.8965826 1.08759487" rotation="0 135 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+    </entity>
+    <entity id="1679ddce5358562">
+      <ECBuildingProjectileEmitter/>
+      <ECTransform position="4.94129896 9.8965826 1.06766021" rotation="0 45.0000038 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+    </entity>
+    <entity id="166914ee5e39ccd" name="no go">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="166914f13809cce">
+      <ECNoGoRegion/>
+      <ECTransform position="6 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="6"/>
+          <point x="-6" y="6"/>
+          <point x="-6" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="166914e7e4b9ccb" name="art">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1679df4e42286aa">
+      <ECBuilding key="3k_towerfreestanding_perimiter_level1" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="0.999999642 1 0.999999642" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="true" id="3k_towerfreestanding_perimiter_level1"/>
+    </entity>
+    <entity id="1695d122cc1c16a">
+      <ECBuilding key="tower_level1_roof" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.99999976 -3.81469727e-06 2.99999976" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="tower_level1_roof"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="166445a07ebb26a">
+        <to id="166914ec5bf9ccc"/>
+        <to id="166914ee5e39ccd"/>
+      </from>
+      <from id="166914ec5bf9ccc">
+        <to id="1679ddce5358564"/>
+        <to id="1679ddce5358562"/>
+      </from>
+      <from id="166914ee5e39ccd">
+        <to id="166914f13809cce"/>
+      </from>
+      <from id="166914e7e4b9ccb">
+        <to id="1679df4e42286aa"/>
+        <to id="1695d122cc1c16a"/>
+      </from>
+    </Logical>
+    <Transform>
+      <from id="1679df4e42286aa">
+        <to id="1679ddce5358562"/>
+        <to id="1679ddce5358564"/>
+        <to id="1695d122cc1c16a"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="165193fc1d9f12a" name="_ref">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="false" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="16519409d1bf12f">
+      <ECPropMesh/>
+      <ECMesh model_path="rigidmodels/buildings/scale_unit_120/scale_unit_120_piece01_destruct01.rigid_model_v2" animation_path=""/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECTransform position="17.1240139 -2.38418579e-07 15.3677425" rotation="0 46.4118958 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651940d96cf130" name="rocks">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1651a06070cbd3b">
+      <ECBuilding key="3k_glb_rock02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-9.30417061 0 -0.19285059" rotation="-7.02073956 -8.48943329 39.8351898" scale="1 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock02"/>
+    </entity>
+    <entity id="1651a065ac8bd3c">
+      <ECBuilding key="3k_glb_rock03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.25130463 0 -7.43978548" rotation="7.04589844 -26.6297951 -116.27346" scale="0.694443941 0.694443703 0.694443882" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock03"/>
+    </entity>
+    <entity id="1651a06e018bd3d">
+      <ECBuilding key="3k_glb_smallrock_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-11.6967287 0 7.02835274" rotation="0 122.000008 0" scale="1.72799993 1.72800004 1.72799993" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_01"/>
+    </entity>
+    <entity id="1651a073025bd3f">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.898647189 0 -13.0364094" rotation="0 -22.9999962 0" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="1651a076946bd40">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.33875465 0 -10.9593067" rotation="0 101.999992 0" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a079fd6bd41">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-2.55900288 0 -9.34552956" rotation="0 -81.9999847 0" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="1651a07cf0cbd43">
+      <ECBuilding key="3k_glb_smallrock_01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.26545715 0 -8.77132034" rotation="0 45.0000038 0" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_01"/>
+    </entity>
+    <entity id="1651a089d34bd45">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="3.0950017 3.81469727e-06 -11.4226131" rotation="0 -6.98123646 0" scale="3.5831809 3.5831809 3.5831809" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="1651a099d83bd46">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="6.79862881 -1.90734863e-06 7.74583673" rotation="8.37984943 144.168915 38.9927979" scale="3.58317971 3.5831809 3.58317947" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="1651a0ae230bd49">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-9.04594231 1.90734863e-06 -6.48627615" rotation="0 24.0000019 0" scale="4.29981709 4.29981709 4.29981709" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="1651a0b289fbd4a">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.4065189 0 1.93245602" rotation="0 216.999985 0" scale="2.98598409 2.98598409 2.98598409" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a0b5d07bd4c">
+      <ECBuilding key="3k_glb_smallrock_02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.1795342 0 12.0166893" rotation="-71.5121841 67.9586182 -173.224258" scale="3.5831809 4.75043106 3.99325466" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_02"/>
+    </entity>
+    <entity id="1651a0e8ccdbd4f">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="7.32927608 0 -12.7940722" rotation="0 -32 0" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a0ea7fabd50">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-12.4993439 0 -0.397076011" rotation="12.5081387 243.491104 167.689926" scale="2.96400928 2.48831987 2.96400809" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0eae10bd51">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-7.39083576 -0.00345802307 -10.1232319" rotation="-12.6580839 55.747612 11.8204546" scale="2.48832035 2.48832035 2.48831987" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0ebb58bd52">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="1.19084847 0 -14.3954821" rotation="-44.6476173 25.4362431 -12.502017" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0ec4febd53">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="9.09352779 0 -11.7555103" rotation="0 67.7627182 0" scale="2.48832011 2.48832011 2.48832011" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0efaa4bd55">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="5.91937733 0 -14.1824455" rotation="0 133 0" scale="2.98598409 2.98598409 2.98598409" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0f0333bd56">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="9.52266979 5.7220459e-06 -6.56247425" rotation="0 133.000015 0" scale="2.98598456 2.98598409 2.98598456" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0f17e2bd58">
+      <ECBuilding key="3k_glb_smallrock_04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8.24552441 0 4.75636196" rotation="19.6027908 -2.03872108 161.749329" scale="2.98598623 2.98598456 2.98598456" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_04"/>
+    </entity>
+    <entity id="1651a0f93d1bd59">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8.84156322 0 2.89418173" rotation="0 -89.0000458 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a0fc573bd5b">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="3.99767447 0 10.4029894" rotation="25.3369484 -27.7790108 -16.3322163" scale="1 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a100c66bd5d">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.6088717 -1.90734863e-06 14.3353271" rotation="0 87.0000381 0" scale="1.44000006 1.44000006 1.44000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a101e3bbd5f">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-9.32772255 0 8.30055904" rotation="0 236 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a102b41bd60">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-4.45835543 -1.90734863e-06 11.6932831" rotation="0 -5.46792698 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a10324dbd61">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-11.8085804 9.53674316e-07 9.89695358" rotation="0 51.0000114 0" scale="0.802740932 0.802740932 0.802740932" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a1039febd62">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-14.3074207 0 -0.926619291" rotation="-47.9632874 42.1521072 -2.76389419e-05" scale="0.99999994 0.99999994 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a103eddbd63">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-13.2478256 -9.53674316e-07 4.798491" rotation="79.1278839 16.0000038 -179.999985" scale="0.99999994 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a104834bd64">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-14.6535149 -2.86102295e-06 4.01990128" rotation="43.9007034 70.3818436 -134.386444" scale="0.733675301 0.733675003 0.733675301" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a10ce8bbd65">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.60115099 -1.90734863e-06 -14.1621256" rotation="-16.3028946 -22.0443287 -15.1994896" scale="0.637738466 0.637738466 0.637738407" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="1651a10d7adbd66">
+      <ECBuilding key="3k_glb_smallrock_03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="4.56264591 -4.76837158e-06 -13.885602" rotation="0 90 0" scale="0.674041331 0.67404145 0.674041331" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_smallrock_03"/>
+    </entity>
+    <entity id="168b8e0a4609ad5" name="parented">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="168b8e0fea89ae7">
+      <ECPrefab key="sbt_forest0_nature03_parent01" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="1.24763727 0 -1.1116097" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651940e8acf131" name="veg">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1651a1308a9bd69">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_c"/>
+      <ECTransform position="11.7428837 -1.90734863e-06 -7.53036499" rotation="0 188.799988 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a134ba9bd6a">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_royal_a"/>
+      <ECTransform position="10.0037365 0 1.03553867" rotation="0 239.799973 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a16dac9bd6b">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_a"/>
+      <ECTransform position="6.5227313 -3.81469727e-06 -11.3978558" rotation="0 191.799988 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a16f6a5bd6c">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_c"/>
+      <ECTransform position="-3.23312569 0 -10.6165352" rotation="17.4799023 192.078934 3.49151063" scale="1.00000024 0.99999994 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a175982bd6d">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_a"/>
+      <ECTransform position="1.23552275 0 -12.6512051" rotation="29.8279419 188.185516 346.288177" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1783a9bd6e">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_b"/>
+      <ECTransform position="1.90611207 0 -15.4743042" rotation="-22.7822342 -18.2836571 -0.49054876" scale="1 1 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a17f2a5bd6f">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_c"/>
+      <ECTransform position="-1.2065022 0 -15.3566437" rotation="-71.6561279 73.9825592 -92.9274902" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1b2332bd74">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_b"/>
+      <ECTransform position="-1.55033064 0 14.6015148" rotation="0 42.7999916 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1bc1c5bd75">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_b"/>
+      <ECTransform position="-6.86158133 -9.53674316e-07 12.5241804" rotation="0 209.800018 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1c505dbd78">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_c"/>
+      <ECTransform position="-5.54396486 0 14.3111267" rotation="0 156.799988 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1db8f4bd7a">
+      <ECVegetation key="trees/shrub_convallaria/tree_shrub_convallaria_a"/>
+      <ECTransform position="-4.61648989 0 15.2771301" rotation="0 130.800003 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1dcb3bbd7b">
+      <ECVegetation key="trees/shrub_convallaria/tree_shrub_convallaria_c"/>
+      <ECTransform position="-5.38360882 0 16.4177685" rotation="0 146.799988 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1de6dcbd7c">
+      <ECVegetation key="trees/shrub_convallaria/tree_shrub_convallaria_d"/>
+      <ECTransform position="-4.11901569 0 16.3658142" rotation="0 238.799988 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1ee529bd7d">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_royal_b"/>
+      <ECTransform position="1.73491693 -2.86102295e-06 14.0133829" rotation="0 265.799988 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a1fa543bd7f">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_a"/>
+      <ECTransform position="3.64200473 0 11.0952816" rotation="-6.55045176 239.847321 -354.496887" scale="1.00000012 0.999999762 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a209840bd81">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_d"/>
+      <ECTransform position="9.67549324 0 4.74306726" rotation="-14.0822783 244.788834 -22.6836166" scale="1.00000024 0.999999881 1.00000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a20ff5bbd82">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_b"/>
+      <ECTransform position="11.8593159 0 2.90474415" rotation="0 208.376373 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a217d9bbd83">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_c"/>
+      <ECTransform position="6.42132044 0 7.43514681" rotation="8.29718304 1.4722451 -27.0571556" scale="1 0.999999881 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a21c40abd84">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_a"/>
+      <ECTransform position="7.94491959 0 6.97376204" rotation="22.976511 43.6831398 -12.5651903" scale="0.833333015 0.833333015 0.833333015" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a21e888bd85">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_b"/>
+      <ECTransform position="9.86313057 -9.53674316e-07 -7.82534599" rotation="6.47198629 126.999649 348.832001" scale="0.833333015 0.833333015 0.833333075" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a224c69bd88">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_b"/>
+      <ECTransform position="-3.19222569 0 -12.8659134" rotation="33.642807 176.790054 356.656647" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a229120bd89">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_d"/>
+      <ECTransform position="-2.73756075 0 -13.2971506" rotation="33.642807 176.790054 356.656647" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a22bc03bd8a">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_a"/>
+      <ECTransform position="-4.92119789 0 -10.7591267" rotation="11.9212608 214.201797 26.9205875" scale="0.694444001 0.694444001 0.694444001" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a22d989bd8b">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_a"/>
+      <ECTransform position="-11.5798111 0 -5.11616278" rotation="-13.3545361 267.615967 -322.166046" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a23970bbd8d">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_b"/>
+      <ECTransform position="-8.37688828 0 -7.12993908" rotation="7.27150106 251.762726 19.8661499" scale="1.00000024 0.99999994 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1651a245f3fbd8e">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_a"/>
+      <ECTransform position="-14.6101093 0 3.75570369" rotation="0 -81.2000122 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="166151bb803bc25" name="children_a">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1669b7fe66e1be1" name="children_b">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="16519512847f1c9" name="logic">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="1651a2798e5bdfa">
+      <ECNoGoRegion/>
+      <ECTransform position="-1.86093616 0 -15.7378292" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-9.80611992" y="7.44186592"/>
+          <point x="-14.301506" y="16.7250099"/>
+          <point x="-10.4110966" y="26.5682106"/>
+          <point x="-6.86790848" y="30.433506"/>
+          <point x="1.43454075" y="31.5717773"/>
+          <point x="10.9949102" y="25.0744591"/>
+          <point x="12.7389593" y="9.11259174"/>
+          <point x="10.7807093" y="1.4735508"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="166a0a37a7c3e0f">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="1.55612469 0 -15.6965313" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-9.10428619" y="4.28650856"/>
+          <point x="-14.36098" y="8.98474503"/>
+          <point x="-17.6991348" y="20.007515"/>
+          <point x="-13.1532173" y="26.684988"/>
+          <point x="-6.7913785" y="31.5383625"/>
+          <point x="-1.78080654" y="31.228157"/>
+          <point x="3.67099476" y="27.1239586"/>
+          <point x="8.60048771" y="20.3899002"/>
+          <point x="9.85612965" y="16.5035419"/>
+          <point x="9.80489063" y="6.97954178"/>
+          <point x="6.98614216" y="1.37538147"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="165193fc1d9f12a">
+        <to id="16519409d1bf12f"/>
+      </from>
+      <from id="1651940d96cf130">
+        <to id="1651a06070cbd3b"/>
+        <to id="1651a065ac8bd3c"/>
+        <to id="1651a06e018bd3d"/>
+        <to id="1651a073025bd3f"/>
+        <to id="1651a076946bd40"/>
+        <to id="1651a079fd6bd41"/>
+        <to id="1651a07cf0cbd43"/>
+        <to id="1651a089d34bd45"/>
+        <to id="1651a099d83bd46"/>
+        <to id="1651a0ae230bd49"/>
+        <to id="1651a0b289fbd4a"/>
+        <to id="1651a0b5d07bd4c"/>
+        <to id="1651a0e8ccdbd4f"/>
+        <to id="1651a0ea7fabd50"/>
+        <to id="1651a0eae10bd51"/>
+        <to id="1651a0ebb58bd52"/>
+        <to id="1651a0ec4febd53"/>
+        <to id="1651a0efaa4bd55"/>
+        <to id="1651a0f0333bd56"/>
+        <to id="1651a0f17e2bd58"/>
+        <to id="1651a0f93d1bd59"/>
+        <to id="1651a0fc573bd5b"/>
+        <to id="1651a100c66bd5d"/>
+        <to id="1651a101e3bbd5f"/>
+        <to id="1651a102b41bd60"/>
+        <to id="1651a10324dbd61"/>
+        <to id="1651a1039febd62"/>
+        <to id="1651a103eddbd63"/>
+        <to id="1651a104834bd64"/>
+        <to id="1651a10ce8bbd65"/>
+        <to id="1651a10d7adbd66"/>
+        <to id="168b8e0a4609ad5"/>
+      </from>
+      <from id="168b8e0a4609ad5">
+        <to id="168b8e0fea89ae7"/>
+      </from>
+      <from id="1651940e8acf131">
+        <to id="1651a1308a9bd69"/>
+        <to id="1651a134ba9bd6a"/>
+        <to id="1651a16dac9bd6b"/>
+        <to id="1651a16f6a5bd6c"/>
+        <to id="1651a175982bd6d"/>
+        <to id="1651a1783a9bd6e"/>
+        <to id="1651a17f2a5bd6f"/>
+        <to id="1651a1b2332bd74"/>
+        <to id="1651a1bc1c5bd75"/>
+        <to id="1651a1c505dbd78"/>
+        <to id="1651a1db8f4bd7a"/>
+        <to id="1651a1dcb3bbd7b"/>
+        <to id="1651a1de6dcbd7c"/>
+        <to id="1651a1ee529bd7d"/>
+        <to id="1651a1fa543bd7f"/>
+        <to id="1651a209840bd81"/>
+        <to id="1651a20ff5bbd82"/>
+        <to id="1651a217d9bbd83"/>
+        <to id="1651a21c40abd84"/>
+        <to id="1651a21e888bd85"/>
+        <to id="1651a224c69bd88"/>
+        <to id="1651a229120bd89"/>
+        <to id="1651a22bc03bd8a"/>
+        <to id="1651a22d989bd8b"/>
+        <to id="1651a23970bbd8d"/>
+        <to id="1651a245f3fbd8e"/>
+        <to id="166151bb803bc25"/>
+        <to id="1669b7fe66e1be1"/>
+      </from>
+      <from id="16519512847f1c9">
+        <to id="1651a2798e5bdfa"/>
+        <to id="166a0a37a7c3e0f"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

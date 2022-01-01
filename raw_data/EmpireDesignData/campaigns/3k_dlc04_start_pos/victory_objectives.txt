@@ -1,0 +1,2076 @@
+victory_objectives
+{
+	//*****************************************//
+	//**************** Empress He *************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc04_faction_empress_he;
+
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+	
+				objective
+				{
+					type DESTROY_FACTION;
+					faction 3k_dlc04_faction_zhang_jue;
+					faction 3k_dlc04_faction_zhang_bao;
+					faction 3k_dlc04_faction_zhang_liang;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+				
+				objective
+				{
+					type DESTROY_FACTION;
+					faction 3k_dlc04_faction_zhang_jue;
+					faction 3k_dlc04_faction_zhang_bao;
+					faction 3k_dlc04_faction_zhang_liang;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_dlc04_faction_empress_he;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+					faction 3k_dlc04_faction_zhang_jue;
+					faction 3k_dlc04_faction_zhang_bao;
+					faction 3k_dlc04_faction_zhang_liang;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+
+				objective
+				{
+					type DESTROY_FACTION;
+					faction 3k_dlc04_faction_zhang_jue;
+					faction 3k_dlc04_faction_zhang_bao;
+					faction 3k_dlc04_faction_zhang_liang;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Lu Zhi *****************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc04_faction_lu_zhi;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_dlc04_faction_lu_zhi;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Liu Chong **************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc04_faction_prince_liu_chong;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_dlc04_faction_prince_liu_chong;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Zhang Bao **************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc04_faction_zhang_bao;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_dlc04_faction_zhang_bao;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Zhang Jue *****************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc04_faction_zhang_jue;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_dlc04_faction_zhang_jue;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Zhang Liang ************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc04_faction_zhang_liang;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_dlc04_faction_zhang_liang;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Cao Cao ****************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_cao_cao;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_cao_cao;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Dong Zhuo **************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_dong_zhuo;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_dong_zhuo;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Gongsun Zan ************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_gongsun_zan;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_gongsun_zan;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Liu Bei ****************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_liu_bei;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_liu_bei;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Liu Biao ***************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_liu_biao;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_liu_biao;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Sun Jian ***************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_sun_jian;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_sun_jian;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	//*****************************************//
+	//**************** Tao Qian ***************//
+	//*****************************************//
+		
+	//** SINGLE PLAYER **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_main_faction_tao_qian;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction 3k_main_faction_tao_qian;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}
+	
+}

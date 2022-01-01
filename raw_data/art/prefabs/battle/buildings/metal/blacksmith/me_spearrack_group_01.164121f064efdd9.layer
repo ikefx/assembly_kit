@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="164121f0638fd9c">
+      <ECLivePrefab entity_map="">
+        <prefab id="1640311b45fd2b8">
+          <ECPrefab key="me_spearrack_group_01"/>
+          <ECTransform position="1560.84253 7.62939453e-06 925.222168" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+          <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+        </prefab>
+      </ECLivePrefab>
+      <ECTransform position="0 0 0" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="164121f0638fd9d">
+      <ECPrefab key="me_blacksmith_spearrack_04"/>
+      <ECTransform position="0.0554199219 0 3.31903076" rotation="0 86.0000687 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164121f063efdb1">
+      <ECPrefab key="me_blacksmith_spearrack_02"/>
+      <ECTransform position="-0.0400390625 1.33514404e-05 0.0787963867" rotation="0 90 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164121f0646fdc5">
+      <ECPrefab key="me_blacksmith_spearrack_01"/>
+      <ECTransform position="-0.0555419922 1.52587891e-05 -3.3190918" rotation="0 90 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="164121f0638fd9c">
+        <to id="164121f0638fd9d"/>
+        <to id="164121f063efdb1"/>
+        <to id="164121f0646fdc5"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

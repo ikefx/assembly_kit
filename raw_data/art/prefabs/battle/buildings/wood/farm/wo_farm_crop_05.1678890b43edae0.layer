@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="1678890bfe8dae1" name="trees">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1678890ce93dae6">
+      <ECVegetation key="trees/camphor/tree_camphor_i"/>
+      <ECTransform position="12.0712051 0 11.9044228" rotation="7.76944733 82.5427475 6.39419413" scale="1 1 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678890ce93dae2">
+      <ECVegetation key="trees/camphor/tree_camphor_j"/>
+      <ECTransform position="10.2185345 0 5.62912083" rotation="-5.61095667 82.5565262 -6.69132137" scale="0.999999344 1 0.999999404" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678890ce93dae4">
+      <ECVegetation key="trees/camphor/tree_camphor_j"/>
+      <ECTransform position="15.3714523 0 1.03966141" rotation="-2.32750988 130.213348 -1.10776103" scale="0.882158518 0.88215822 0.882158399" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="16788913977db26" name="fields">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="167889149dedb27" name="su_ha_au">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags="su,ha,au"/>
+    </entity>
+    <entity id="167889170f7db2b">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi1_decals.rigid_model_v2" parallax_scale="0.100000001" tiling="0.100000001" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.68749619 0 10.4872293" rotation="34.6491661 269.417847 325.416046" scale="18.5860043 10 21.9552937" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="167889170f6db2a">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_pakchoi2_decals.rigid_model_v2" parallax_scale="0.100000001" tiling="0.100000001" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.249970436 0 -12.2884846" rotation="34.6507912 269.418854 325.414429" scale="23.3191547 10 26.9915199" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678891a149db2c" name="wi_sp">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1678891e677db2d">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_earth1_decals.rigid_model_v2" parallax_scale="0.100000001" tiling="0.100000001" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.249970436 0 -12.2884846" rotation="34.6507912 269.418854 325.414429" scale="23.3191547 10 26.9915199" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678891ee98db2e">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_field_earth1_decals.rigid_model_v2" parallax_scale="0.100000001" tiling="0.100000001" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-3.68749619 0 10.4872293" rotation="34.6491661 269.417847 325.416046" scale="18.5860043 10 21.9552937" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893bdc2db32" name="shrubs">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1678893d894db33">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_a"/>
+      <ECTransform position="9.93009853 0 2.43381429" rotation="0 0 0" scale="0.724318027 0.724318027 0.724318027" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893d8e5db34">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_a"/>
+      <ECTransform position="8.54196835 0 3.57322621" rotation="0 0 0" scale="0.923246384 0.923246384 0.923246384" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893d912db35">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_a"/>
+      <ECTransform position="7.62113476 0 1.1731782" rotation="0 0 0" scale="0.674367368 0.674367368 0.674367368" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893d949db36">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_a"/>
+      <ECTransform position="-2.26905131 0 0.593994379" rotation="0 0 0" scale="0.735742807 0.735742807 0.735742807" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893d990db37">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_a"/>
+      <ECTransform position="-3.72547507 0 0.0494267344" rotation="0 0 0" scale="0.881241977 0.881241977 0.881241977" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893da89db3a">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_c"/>
+      <ECTransform position="-4.08139324 0 1.22382081" rotation="0 0 0" scale="0.753252745 0.753252745 0.753252745" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893da9edb3b">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_c"/>
+      <ECTransform position="-5.28519201 0 -0.145176202" rotation="0 0 0" scale="0.728868723 0.728868723 0.728868723" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893daebdb40">
+      <ECVegetation key="trees/shrub_flat/tree_shrub_flat_a"/>
+      <ECTransform position="-6.66114426 0 0.654047012" rotation="0 0 0" scale="0.617097199 0.617097199 0.617097199" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1678893db2ddb41">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_thick_c"/>
+      <ECTransform position="-9.47810078 0 0.340299129" rotation="0 0 0" scale="0.821178913 0.821178913 0.821178913" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="1678890bfe8dae1">
+        <to id="1678890ce93dae6"/>
+        <to id="1678890ce93dae2"/>
+        <to id="1678890ce93dae4"/>
+      </from>
+      <from id="16788913977db26">
+        <to id="167889149dedb27"/>
+        <to id="1678891a149db2c"/>
+      </from>
+      <from id="167889149dedb27">
+        <to id="167889170f7db2b"/>
+        <to id="167889170f6db2a"/>
+      </from>
+      <from id="1678891a149db2c">
+        <to id="1678891e677db2d"/>
+        <to id="1678891ee98db2e"/>
+      </from>
+      <from id="1678893bdc2db32">
+        <to id="1678893d894db33"/>
+        <to id="1678893d8e5db34"/>
+        <to id="1678893d912db35"/>
+        <to id="1678893d949db36"/>
+        <to id="1678893d990db37"/>
+        <to id="1678893da89db3a"/>
+        <to id="1678893da9edb3b"/>
+        <to id="1678893daebdb40"/>
+        <to id="1678893db2ddb41"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

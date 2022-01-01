@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8eace819d64" name="3k_glb_rock04_main">
+      <ECBuilding key="3k_glb_rock04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.953896224 0.364293188 -0.728240013" rotation="0 95.0001373 0" scale="0.694440663 0.69444102 0.694440663" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock04"/>
+    </entity>
+    <entity id="168b8eace819d65" name="3k_glb_rock02_child">
+      <ECBuilding key="3k_glb_rock02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.68796277 -0.52458477 -4.77071762" rotation="2.17101073 6.60782719 -25.2442017" scale="1.05995214 1.05995178 1.05995226" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock02"/>
+    </entity>
+    <entity id="168b8eace819d66">
+      <ECVegetation key="trees/shrub_fern/tree_shrub_fern_wood_c"/>
+      <ECTransform position="-1.86337638 2.64871645 1.70227885" rotation="-3.4832325 181.014847 -337.427246" scale="1.44000757 1.44000709 1.44000781" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8eace819d64">
+        <to id="168b8eace819d65"/>
+        <to id="168b8eace819d66"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

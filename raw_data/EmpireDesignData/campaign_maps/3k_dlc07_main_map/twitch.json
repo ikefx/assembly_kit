@@ -1,0 +1,35 @@
+{
+	"map_name" : "3k_main_map",
+
+    "layers" : {
+        "Land/Sea"          : true,
+        "Regions"           : true,
+        "Impassable"        : true,
+        "Town Slots"        : true,
+        "Town Sprawl"       : true,
+        "Roads"             : true,
+        "Land Bridges"      : true,
+        "Rivers"            : true,
+        "Trade Routes"      : true,
+        "Ground Types"      : true,
+        "Attrition"         : true,
+        "Climate"           : true,        
+        "Restrictions"      : true,        
+        "Areas of Interest" : true,        
+        "Region Edge"       : true
+    },
+
+    "validators" : {
+        "Basic Passability"     : true,                      
+        "Bridges"               : true,                                
+        "Climates"              : true,                               
+        "Ground Types"          : true,                           
+        "Regions"               : true,                                
+        "Region Areas"          : true,                           
+        "Region Constrictions"  : true,
+        "Roads"                 : true,                                  
+        "Slots"                 : false,                                  
+        "Restrictions"          : true,                           
+        "Areas of Interest"     : true
+    }
+}

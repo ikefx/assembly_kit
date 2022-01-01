@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="32">
+  <entities>
+    <entity id="162727626584f0a" name="logic">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="156e5d92352fe4a">
+      <ECBattlefieldZone/>
+      <ECTerryBattlefieldZone locked="false" rank_distance="3" zone_skirt_distance="3"/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-32" y="0"/>
+          <point x="-32" y="10"/>
+          <point x="0" y="10"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="16272767cd14f0c">
+      <ECNoGoRegion/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="3" y="0"/>
+          <point x="3" y="5"/>
+          <point x="0" y="5"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="162727690464f0d">
+      <ECNoGoRegion/>
+      <ECTransform position="-32 0 5" rotation="0 0 0" scale="1 1 1"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="-5"/>
+          <point x="-3" y="-5"/>
+          <point x="-3" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="16272763ccb4f0b" name="art">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162725b63dee81f">
+      <ECBuilding key="3k_barricade_32m_01" damage="0" indestructible="false" toggleable="true" capture_location="" export_as_prop="false" allow_in_outfield_as_prop="false"/>
+      <ECMeshRenderSettings cast_shadow="true" alpha="1" tint_colour="255 255 255 255" faction_colour="255 255 255 255"/>
+      <ECTransform position="-16 0 4" rotation="0 0 0" scale="1 1 1"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_barricade_32m_01"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="162727626584f0a">
+        <to id="156e5d92352fe4a"/>
+        <to id="16272767cd14f0c"/>
+        <to id="162727690464f0d"/>
+      </from>
+      <from id="16272763ccb4f0b">
+        <to id="162725b63dee81f"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

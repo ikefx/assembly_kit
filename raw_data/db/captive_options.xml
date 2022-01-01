@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="captive_options.xsd" export_time="Tue Nov 26 10:09:06 2019" revision="16" export_branch="C:/Users/chris.gambold/AppData/Roaming/TWDaemon/1773/dave" export_user="bob">
+<edit_uuid>de087977-a831-4ea7-b69b-b8413cafc528</edit_uuid>
+<captive_options record_uuid="{5b5a0b06-7647-40d5-b9ed-c9a580c9b934}" record_timestamp="1574691982796" record_key="3k_main_captive_option_dont_extract_undercover_character">
+<diplomacy_event></diplomacy_event>
+<effect_set></effect_set>
+<key>3k_main_captive_option_dont_extract_undercover_character</key>
+<localised_option_text state="APPROVED" last_approved_text="Don't Extract" last_edit_user="bob">Don't Extract</localised_option_text>
+<outcome>PRE_BATTLE_DONT_EXTRACT_UNDERCOVER_CHARACTER</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers></relationship_triggers>
+<sound_category_key></sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event></vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{7dc293ac-895a-4b1f-9b5c-bf10dc363d4e}" record_timestamp="1527687498333" record_key="3k_main_captive_option_employ">
+<diplomacy_event>3k_main_diplomatic_factor_captive_hired</diplomacy_event>
+<effect_set>3k_main_character_employed_effects</effect_set>
+<key>3k_main_captive_option_employ</key>
+<localised_option_text state="APPROVED" last_approved_text="Employ" last_edit_user="bob">Employ</localised_option_text>
+<outcome>EMPLOY</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers>3k_main_relationship_trigger_set_captive_general_hire</relationship_triggers>
+<sound_category_key>UI_CAM_HUD_Character_Captured_Employ</sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event>campaign_vo_cs_post_battle_captives_recruit</vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{cb434690-3c4c-46c9-8e5b-661535478d01}" record_timestamp="1527687498333" record_key="3k_main_captive_option_execute">
+<diplomacy_event>3k_main_diplomatic_factor_captive_executed</diplomacy_event>
+<effect_set>3k_main_character_executed_effects</effect_set>
+<key>3k_main_captive_option_execute</key>
+<localised_option_text state="APPROVED" last_approved_text="Execute" last_edit_user="bob">Execute</localised_option_text>
+<outcome>EXECUTE</outcome>
+<post_outcome_relationship_triggers>3k_main_relationship_trigger_set_captive_general_execute</post_outcome_relationship_triggers>
+<relationship_triggers></relationship_triggers>
+<sound_category_key>UI_CAM_HUD_Character_Captured_Execute</sound_category_key>
+<steal_ceo>1</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event>campaign_vo_cs_post_battle_settlement_kill</vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{865cbd24-6d8c-472a-a9ee-aa1a144c9838}" record_timestamp="1545383370571" record_key="3k_main_captive_option_extract_undercover_character">
+<diplomacy_event>3k_main_diplomatic_factor_captive_hired</diplomacy_event>
+<effect_set>3k_main_character_employed_effects</effect_set>
+<key>3k_main_captive_option_extract_undercover_character</key>
+<localised_option_text state="APPROVED" last_approved_text="Extract" last_edit_user="bob">Extract</localised_option_text>
+<outcome>EXTRACT_UNDERCOVER_CHARACTER</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers>3k_main_relationship_trigger_set_captive_general_hire</relationship_triggers>
+<sound_category_key>UI_GBL_TMP_Square_Large_Text_Button</sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event></vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{6e47af92-bc40-414e-be45-54db607ea102}" record_timestamp="1574691982796" record_key="3k_main_captive_option_extract_undercover_character_and_convalesce">
+<diplomacy_event>SPY_DISCOVERED</diplomacy_event>
+<effect_set></effect_set>
+<key>3k_main_captive_option_extract_undercover_character_and_convalesce</key>
+<localised_option_text state="APPROVED" last_approved_text="Extract" last_edit_user="bob">Extract</localised_option_text>
+<outcome>PRE_BATTLE_EXTRACT_UNDERCOVER_CHARACTER_AND_CONVALESCE</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers></relationship_triggers>
+<sound_category_key></sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event></vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{95a80fa9-183b-483e-9425-801097c4f470}" record_timestamp="1574691982795" record_key="3k_main_captive_option_extract_undercover_character_and_reinforce">
+<diplomacy_event>SPY_DISCOVERED</diplomacy_event>
+<effect_set></effect_set>
+<key>3k_main_captive_option_extract_undercover_character_and_reinforce</key>
+<localised_option_text state="APPROVED" last_approved_text="Extract as Reinforcement" last_edit_user="bob">Extract as Reinforcement</localised_option_text>
+<outcome>PRE_BATTLE_EXTRACT_UNDERCOVER_CHARACTER_AND_DEPLOY</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers></relationship_triggers>
+<sound_category_key></sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>0</stealth_wealth>
+<vo_sound_event></vo_sound_event>
+</captive_options>
+<captive_options record_uuid="{52449872-edca-4f07-b31e-8a79e4f5a0d3}" record_timestamp="1527687498334" record_key="3k_main_captive_option_release">
+<diplomacy_event>3k_main_diplomatic_factor_captive_released</diplomacy_event>
+<effect_set>3k_main_character_released_effects</effect_set>
+<key>3k_main_captive_option_release</key>
+<localised_option_text state="APPROVED" last_approved_text="Release" last_edit_user="bob">Release</localised_option_text>
+<outcome>RELEASE</outcome>
+<post_outcome_relationship_triggers></post_outcome_relationship_triggers>
+<relationship_triggers>3k_main_relationship_trigger_set_captive_general_release</relationship_triggers>
+<sound_category_key>UI_CAM_HUD_Character_Captured_Release</sound_category_key>
+<steal_ceo>0</steal_ceo>
+<stealth_wealth>1</stealth_wealth>
+<vo_sound_event>campaign_vo_cs_post_battle_captives_release</vo_sound_event>
+</captive_options>
+</dataroot>

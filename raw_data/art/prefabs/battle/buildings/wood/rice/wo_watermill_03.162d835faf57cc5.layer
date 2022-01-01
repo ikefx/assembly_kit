@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="162d83dc2f782ec" name="bamboo">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162d887c6b4ad9e">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECTransform position="6.89249325 0.182780594 2.29709196" rotation="0 -77.651123 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162d884ae47ad4b">
+      <ECPrefab key="bamboo_watermill" turn_buildings_into_props="false"/>
+      <ECTransform position="9.60900784 -0.272454619 2.01438761" rotation="0 1.36197972 0" scale="0.999999583 1 0.999999583" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162d88691fdad90">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECTransform position="5.46687031 -0.410350055 2.02272749" rotation="6.87502241 190.663422 359.361206" scale="0.999999166 0.999999583 0.999998808" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162d884b8acad5c">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECTransform position="5.46174479 -1.19842792 -0.312539726" rotation="5.65464497 166.381485 0.754694879" scale="1.00000107 0.99999994 1.00000072" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="162d8f0ad7a2b56">
+      <ECBuilding key="3k_cityprop_bamboo_bridge_wide_3b" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8.31866169 0.980914593 -0.663092196" rotation="0.481810063 -90 0" scale="1.00000012 0.999998629 0.999999523" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="3k_cityprop_bamboo_bridge_wide_3b"/>
+    </entity>
+    <entity id="162d98c8648c59a">
+      <ECPrefab key="bamboo_channel" turn_buildings_into_props="false"/>
+      <ECTransform position="6.20191717 -1.93754303 -2.4354105" rotation="5.91621351 149.084641 0.854948401" scale="1.00000107 0.999999702 1.00000095" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="166768a43a512f4">
+      <ECBuilding key="soft_collision_object" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="9.1402092 1.00000191 1.45220804" rotation="0 91.7044525 0" scale="0.46449548 0.53940773 0.902235031" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+      <ECPrefabOverride enabled="false" id="soft_collision_object"/>
+    </entity>
+    <entity id="162d83e04ea82ed" name="buildings">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="162d849fb9487fc" name="rice">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="162d83dc2f782ec">
+        <to id="162d887c6b4ad9e"/>
+        <to id="162d884ae47ad4b"/>
+        <to id="162d88691fdad90"/>
+        <to id="162d884b8acad5c"/>
+        <to id="162d8f0ad7a2b56"/>
+        <to id="162d98c8648c59a"/>
+        <to id="166768a43a512f4"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

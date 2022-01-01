@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20" id="15de1733a8ff606">
+  <pc type="QTU::ProjectPrefab">
+    <data database="battle"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="25">
+      <entity id="15de1733a92f60b" name="Default">
+        <ECFileLayer version="25">
+          <entities>
+            <entity id="15de1733a92f609">
+              <ECSiegeAINode siege_ai_node_type="SANT_AREA"/>
+              <ECTransform position="16 0 -16" rotation="0 0 0" scale="1 1 1"/>
+              <ECTransform2D/>
+              <ECRectangle width="32" height="32"/>
+            </entity>
+            <entity id="15de1733a92f60a">
+              <ECSiegeAIBoundary/>
+              <ECTransform position="-2 0 2" rotation="0 0 0" scale="1 1 1"/>
+              <ECTransform2D/>
+              <ECPolyline>
+                <polyline closed="true">
+                  <point x="0" y="0"/>
+                  <point x="36" y="0"/>
+                  <point x="36" y="-36"/>
+                  <point x="0" y="-36"/>
+                </polyline>
+              </ECPolyline>
+            </entity>
+          </entities>
+          <associations>
+            <Logical>
+              <from id="15de1733a92f609">
+                <to id="15de1733a92f60a"/>
+              </from>
+            </Logical>
+            <Transform/>
+          </associations>
+        </ECFileLayer>
+      </entity>
+    </data>
+  </pc>
+  <pc type="QTU::Terrain"/>
+</project>

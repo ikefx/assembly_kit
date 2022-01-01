@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TWaD_character_assignment_constraint_set_required_conditions>
+<root>
+<edit_uuid>18130c30-e906-455b-8275-af94f3651039</edit_uuid>
+<include_all_records_in_retail>1</include_all_records_in_retail>
+<field>
+<field_uuid>{47644559-bec9-4cb0-8a1b-a51d57d7a29b}</field_uuid>
+<primary_key>1</primary_key>
+<name>constraint_set</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_assignment_constraint_sets</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{db098c0b-68ad-48db-aee7-5eae51426a5b}</field_uuid>
+<primary_key>1</primary_key>
+<name>condition</name>
+<field_type>text</field_type>
+<required>1</required>
+<max_length>255</max_length>
+<column_source_column>key</column_source_column>
+<column_source_table>character_assignment_conditions</column_source_table>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+<field>
+<field_uuid>{17c2cacd-b0dd-4ef2-b89b-620f82128656}</field_uuid>
+<primary_key>1</primary_key>
+<name>boolean</name>
+<field_type>yesno</field_type>
+<required>1</required>
+<field_description>Specifies if the condition must be true/false</field_description>
+<requires_startpos_reprocess>0</requires_startpos_reprocess>
+<requires_campaign_map_reprocess>0</requires_campaign_map_reprocess>
+</field>
+</root>

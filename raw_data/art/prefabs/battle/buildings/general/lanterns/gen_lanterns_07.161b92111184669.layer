@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="163834029922373">
+      <ECPointLight colour="255 136 106 255" colour_scale="80000" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECTransform position="-0.0238169953 2.3725934 -0.141993046" rotation="0 -0.999761462 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="1638341e16d2375">
+      <ECPointLight colour="255 136 106 255" colour_scale="80000" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECTransform position="0.1002196 2.3725934 0.390914917" rotation="0 -0.999768317 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="16663e93f2ff754">
+      <ECBuilding key="gen_lanterns_01_nc" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.160308838 1.90734852e-06 -3.99617767" rotation="0 0.999768317 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="gen_lanterns_01_nc"/>
+    </entity>
+    <entity id="16663e94748f756">
+      <ECBuilding key="gen_lanterns_01_nc" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.0269775391 1.90734852e-06 3.35761261" rotation="0 0.999761462 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="gen_lanterns_01_nc"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="16663e93f2ff754">
+        <to id="1638341e16d2375"/>
+      </from>
+      <from id="16663e94748f756">
+        <to id="163834029922373"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

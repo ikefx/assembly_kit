@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8f89dadda0a">
+      <ECBuilding key="3k_yel_rocks03" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-5.34792137 0.248914719 -3.54491949" rotation="-30.997467 23.1325741 42.0093536" scale="1.74837101 1.74837112 1.74837112" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks03"/>
+    </entity>
+    <entity id="168b8f89dadda0b" name="3k_yel_rocks05_parent_a">
+      <ECBuilding key="3k_yel_rocks05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.481168747 0 -0.208762407" rotation="-25.9547596 204.975769 -273.280243" scale="0.571960986 0.571960986 0.571960926" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks05"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8f89dadda0b">
+        <to id="168b8f89dadda0a"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

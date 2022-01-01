@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="32">
+  <entities>
+    <entity id="160eb15d5cfb496">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="1.59391379 1.90459233e-15 0.267121226" rotation="-3.90588228e-09 -2.53171611 1.76761063e-07" scale="0.99999994 0.99999994 0.99999994"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="160eb15d5d5b4a6">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="-1.78739595 2.66748145e-15 1.79120183e-31" rotation="-4.03118428e-09 -2.98360753 -3.5779928e-07" scale="1 1.00000012 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="160eb2a560aa2dc">
+      <ECVegetation key="trees/shrub_tea/shrub_tea_a"/>
+      <ECTransform position="-0.135106921 2.00429362e-15 -0.188537464" rotation="-4.0311825e-09 -2.98360753 -3.5779928e-07" scale="1 1.00000012 1"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+    <entity id="16194a5ae4e19e7">
+      <ECDecal model_path="rigidmodels/decals/farm_field_decals/crops/battle_gen_earth_track1_decals.rigid_model_v2" parallax_scale="0.25" tiling="0" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.00559878349 9.53674316e-07 -0.074826628" rotation="0 0 0" scale="5 5 6.55349112"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="true"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

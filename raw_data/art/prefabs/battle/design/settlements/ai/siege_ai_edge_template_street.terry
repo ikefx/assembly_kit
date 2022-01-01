@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="20" id="15de1736c20f616">
+  <pc type="QTU::ProjectPrefab">
+    <data database="battle"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="25">
+      <entity id="15de1736c21f61c" name="Default">
+        <ECFileLayer version="25">
+          <entities>
+            <entity id="15de1736c21f619">
+              <ECSiegeAIEdge siege_ai_edge_type="SAET_STREET"/>
+              <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1"/>
+              <ECTransform2D/>
+              <ECPolyline>
+                <polyline closed="false">
+                  <point x="0" y="0"/>
+                  <point x="62" y="0"/>
+                </polyline>
+              </ECPolyline>
+            </entity>
+            <entity id="15de1736c21f61a">
+              <ECSiegeAIBoundary/>
+              <ECTransform position="0 -3.05175781e-05 14" rotation="0 0 0" scale="1 1 1"/>
+              <ECTransform2D/>
+              <ECPolyline>
+                <polyline closed="false">
+                  <point x="0" y="0"/>
+                  <point x="0" y="4"/>
+                  <point x="62" y="4"/>
+                  <point x="62" y="0"/>
+                </polyline>
+              </ECPolyline>
+            </entity>
+            <entity id="15de1736c21f61b">
+              <ECSiegeAIBoundary/>
+              <ECTransform position="62 -3.05175781e-05 -14" rotation="0 0 0" scale="1 1 1"/>
+              <ECTransform2D/>
+              <ECPolyline>
+                <polyline closed="false">
+                  <point x="0" y="0"/>
+                  <point x="0" y="-4"/>
+                  <point x="-62" y="-4"/>
+                  <point x="-62" y="0"/>
+                </polyline>
+              </ECPolyline>
+            </entity>
+          </entities>
+          <associations>
+            <Logical>
+              <from id="15de1736c21f619">
+                <to id="15de1736c21f61a"/>
+                <to id="15de1736c21f61b"/>
+              </from>
+            </Logical>
+            <Transform/>
+          </associations>
+        </ECFileLayer>
+      </entity>
+    </data>
+  </pc>
+  <pc type="QTU::Terrain"/>
+</project>

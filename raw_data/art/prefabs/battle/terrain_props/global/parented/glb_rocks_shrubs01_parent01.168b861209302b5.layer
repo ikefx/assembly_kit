@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b861209302b3" name="3k_glb_rock04_parent_a">
+      <ECBuilding key="3k_glb_rock04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.101690292 0 -0.534813881" rotation="-76.9509811 -65.8407288 -115.840904" scale="1.24907756 1.24907672 1.24907732" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock04"/>
+    </entity>
+    <entity id="168b861209302b4" name="3k_glb_rock04_child_a">
+      <ECBuilding key="3k_glb_rock04" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.169302464 -1.79327786 -0.14207983" rotation="-12.4198799 169.667755 -6.36057234" scale="0.8246876 0.824687362 0.824686766" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_glb_rock04"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b861209302b3">
+        <to id="168b861209302b4"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

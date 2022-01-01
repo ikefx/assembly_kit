@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="16731d339b37246">
+      <ECProceduralExclusionZone2 exclude_vegetation="true" exclude_grass="true"/>
+      <ECTransform position="14.0862122 0 -19.6600647" rotation="0 -1.7075472e-06 0" scale="2 2 2" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-2.31422043" y="-2.54857016"/>
+          <point x="-6.21030712" y="-3.39809179"/>
+          <point x="-10.8723545" y="-3.41433764"/>
+          <point x="-12.6842594" y="-2.7536273"/>
+          <point x="-13.8051224" y="-0.784041882"/>
+          <point x="-14.1782494" y="5.41937304"/>
+          <point x="-14.0317802" y="11.1023912"/>
+          <point x="-14.1489563" y="15.9358835"/>
+          <point x="-13.6590748" y="19.4025345"/>
+          <point x="-12.3327332" y="22.5563049"/>
+          <point x="-10.8094501" y="23.5523033"/>
+          <point x="-9.34475517" y="23.9624176"/>
+          <point x="-7.23559284" y="23.4351254"/>
+          <point x="-5.44866753" y="22.0583134"/>
+          <point x="-1.93339539" y="19.0996304"/>
+          <point x="-0.937404633" y="16.4631767"/>
+          <point x="-0.703054428" y="12.0690918"/>
+          <point x="0.410114288" y="7.08912611"/>
+          <point x="0.761642456" y="3.33950567"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="16db01389ccc3b0" name="terrain_hole">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="false" export_as_separate_file_if_not_meta_tagged="false" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags force_tags="false" tags=""/>
+    </entity>
+    <entity id="16261adb11d0df5">
+      <ECTerrainHole procedural_exclusion_zone="true" procedural_exclusion_zone_margin="5"/>
+      <ECTransform position="-7.90704346 0.247955441 -25.5756226" rotation="0 -1.7075472e-06 0" scale="2 2 2" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="4.81440639" y="0.209209442"/>
+          <point x="-0.0785524994" y="0.067088604"/>
+          <point x="-1.5737114" y="1.17293739"/>
+          <point x="-2.31051898" y="2.41953564"/>
+          <point x="-2.58533502" y="7.26577139"/>
+          <point x="-2.42765379" y="11.0624723"/>
+          <point x="-2.53344846" y="13.6871157"/>
+          <point x="-2.43462229" y="20.424921"/>
+          <point x="-1.71308887" y="23.5750408"/>
+          <point x="-0.443029404" y="25.2975197"/>
+          <point x="1.38396955" y="26.1218262"/>
+          <point x="3.23820019" y="25.6770267"/>
+          <point x="4.39824247" y="24.5414677"/>
+          <point x="6.17926836" y="23.6620941"/>
+          <point x="8.52154446" y="21.621891"/>
+          <point x="9.479002" y="19.1670246"/>
+          <point x="9.65439892" y="15.6540852"/>
+          <point x="10.3463049" y="10.5751247"/>
+          <point x="11.0236206" y="5.94116116"/>
+          <point x="9.91774654" y="2.39995527"/>
+          <point x="8.12947178" y="0.777238131"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="16db01389ccc3b0">
+        <to id="16261adb11d0df5"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

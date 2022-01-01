@@ -1,0 +1,22 @@
+[Tile]
+	<Files> = ...*.terry, ..._settings.xml
+	TileDatabaseType = battle
+	PrefabRoot = art/prefabs/battle
+	ProcessSpecialTerrainPropsHeight = true
+	UnpackPrefabsWithTransformParent = true
+	BMDForEachTagInGroup = settlement_district_region,settlement_district
+	
+[Tile]
+	<Files> = ...*settlement*.terry, ..._settings.xml
+	TileDatabaseType = battle
+	PrefabRoot = art/prefabs/battle
+	infield_fixed_vertex_interval = 16
+	outfield_fixed_vertex_interval = 2048
+	ProcessSpecialTerrainPropsHeight = false
+	UnpackPrefabsWithTransformParent = true
+	BMDForEachTagInGroup = settlement_district_region,settlement_district
+
+[+RigidModelV2]
+	TargetPath = terrain\tiles\battle
+	TextureFolder = terrain\tiles\battle
+	LodType = battle_terrain_massive

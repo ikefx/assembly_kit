@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="165c3af9cf2a6ec" name="vegetation">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1645aad22c6f83a">
+      <ECVegetation key="trees/camphor/tree_camphor_i"/>
+      <ECTransform position="-0.000122070313 0 0.00048828125" rotation="0 18.9999924 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3afbdb4a6ed" name="decals">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="1645aad22c6f834">
+      <ECPrefab key="corner_decals" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="6.50000048 0 6.49999952" rotation="0 -1.36603776e-05 0" scale="1 0.5 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1645aad22c5f82a">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_trim/cty_stone_floor_trim_planter_decal.rigid_model_v2" parallax_scale="0" tiling="0" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0 0 0" rotation="0 179.999985 0" scale="7.43007946 0.5 7.43007946" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1645aad22c5f829">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_broken/cty_stone_floor_pavement_decal_01.rigid_model_v2" parallax_scale="0" tiling="0.200000003" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="-2.84124013e-07 0 -6.5" rotation="-1.54631343e-05 -3.24569202e-13 3.53385019e-13" scale="8 0.5 5" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1645aad22c4f824">
+      <ECPrefab key="corner_decals" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.50000048 0 -6.49999952" rotation="-1.36603776e-05 180 -1.36603776e-05" scale="1 0.5 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1645aad22c2f81a">
+      <ECPrefab key="corner_decals" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.49999952 0 6.50000048" rotation="-4.34210773e-13 -90 0" scale="0.999999821 0.5 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="1645aad22c6f839">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_broken/cty_stone_floor_pavement_decal_01.rigid_model_v2" parallax_scale="0" tiling="0.200000003" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="2.84124013e-07 0 6.5" rotation="-1.36603776e-05 179.999985 0" scale="8 0.5 5" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b13f54a6f5">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_broken/cty_stone_floor_pavement_decal_01.rigid_model_v2" parallax_scale="0" tiling="0.200000003" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.5 6.97646828e-06 2.90680759e-07" rotation="-1.54631307e-05 90 0" scale="7.99999666 0.5 4.99999666" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b118dea6f0">
+      <ECPrefab key="corner_decals" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="6.49999952 0 -6.50000048" rotation="2.36782962e-05 90 0" scale="0.99999994 0.5 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b2b045a6f7">
+      <ECDecal model_path="rigidmodels/decals/city/stone_floor_broken/cty_stone_floor_pavement_decal_01.rigid_model_v2" parallax_scale="0" tiling="0.200000003" tiling_affects_alpha="false" normal_mode="DNM_DECAL_OVERRIDE" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+      <ECBattleProperties visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="true" faction_colour="255 255 255 255"/>
+      <ECTransform position="6.5 0 -2.84124013e-07" rotation="-1.54631307e-05 90 0" scale="7.99999619 0.5 4.99999619" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b32e4fa747">
+      <ECPrefab key="3k_prop_city_streetlight_01" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="6.56443548 0 -6.50000048" rotation="-2.87871029e-12 -90 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b347a8a750">
+      <ECPrefab key="3k_prop_city_streetlight_02" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="6.50000048 0 6.49999952" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b35107a759">
+      <ECPrefab key="3k_prop_city_streetlight_03" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.50000048 0 -6.49999952" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="165c3b35906a762">
+      <ECPrefab key="3k_prop_city_streetlight_04" turn_buildings_into_props="false"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-6.49999952 0 6.50000048" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="165c3af9cf2a6ec">
+        <to id="1645aad22c6f83a"/>
+      </from>
+      <from id="165c3afbdb4a6ed">
+        <to id="1645aad22c6f834"/>
+        <to id="1645aad22c5f82a"/>
+        <to id="1645aad22c5f829"/>
+        <to id="1645aad22c4f824"/>
+        <to id="1645aad22c2f81a"/>
+        <to id="1645aad22c6f839"/>
+        <to id="165c3b13f54a6f5"/>
+        <to id="165c3b118dea6f0"/>
+        <to id="165c3b2b045a6f7"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

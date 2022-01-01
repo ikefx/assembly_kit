@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8f443fda124">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_d"/>
+      <ECTransform position="-1.71286249 5.51084375 -1.01337838" rotation="21.8517933 30.4047031 28.4809761" scale="0.797932565 0.797932684 0.797932506" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8f443fda125" name="3k_yel_rocks05_parent_a">
+      <ECBuilding key="3k_yel_rocks05" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-0.689320922 0 -0.996808052" rotation="0 155.952744 0" scale="1.22804904 1.22804844 1.22804904" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_yel_rocks05"/>
+    </entity>
+    <entity id="168b8f443fda126">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_c"/>
+      <ECTransform position="-1.59779084 5.18048048 -0.0490703583" rotation="-21.4897003 190.045853 -349.392181" scale="0.769710302 0.76971072 0.769710362" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8f443fda127">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_seedheads_a"/>
+      <ECTransform position="-0.783059776 5.58521748 -0.843445063" rotation="-23.7188282 153.734451 -4.3237009" scale="0.678265274 0.678265631 0.678265333" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8f443fda128">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_d"/>
+      <ECTransform position="-0.0686146766 6.20325804 -0.930463314" rotation="-24.6942215 179.632706 -314.220642" scale="0.798263848 0.798263907 0.798263788" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+    <entity id="168b8f443fea129">
+      <ECVegetation key="trees/shrub_grassclump/shrub_grassclump_dry_d"/>
+      <ECTransform position="-0.962727845 5.39493752 -0.408831" rotation="21.1872292 -3.56473112 5.29854059" scale="0.699825406 0.699825823 0.699825406" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8f443fda125">
+        <to id="168b8f443fda124"/>
+        <to id="168b8f443fda126"/>
+        <to id="168b8f443fda127"/>
+        <to id="168b8f443fda128"/>
+        <to id="168b8f443fea129"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

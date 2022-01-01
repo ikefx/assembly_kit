@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="168b8835789949b">
+      <ECBuilding key="3k_ard_rock02" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="1.49104238 2.88615155 -0.227451563" rotation="-9.60515022 -26.3902206 -177.230621" scale="1.05911517 0.673104644 1.05911469" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_ard_rock02"/>
+    </entity>
+    <entity id="168b8835789949c" name="3k_ard_rock01_p_a">
+      <ECBuilding key="3k_ard_rock01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="0.613687396 0 -0.699960709" rotation="-1.03790188 138.581879 -184.032028" scale="1.24442661 1.24442661 1.24442732" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_ard_rock01"/>
+    </entity>
+    <entity id="168b8835789949d" name="3k_ard_rock01_p_b">
+      <ECBuilding key="3k_ard_rock01" damage="0" indestructible="false" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="-1.61868334 -3.20509052 -0.0567815304" rotation="-3.34787178 119.143631 -185.948608" scale="0.493982047 0.889567494 0.889567137" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_ard_rock01"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform>
+      <from id="168b8835789949c">
+        <to id="168b8835789949d"/>
+      </from>
+      <from id="168b8835789949d">
+        <to id="168b8835789949b"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

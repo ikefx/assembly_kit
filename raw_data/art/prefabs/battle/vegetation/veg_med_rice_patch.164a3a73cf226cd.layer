@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="34">
+  <entities>
+    <entity id="164a3a73cf226c9">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-4.64233398 0.00735855103 -4.65783691" rotation="0 179.803741 0" scale="1.49999821 1.50000036 1.49999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164a3a73cf226ca">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="4.64147949 0.00596618652 4.85510254" rotation="0 179.803741 0" scale="1.49999774 1.50000036 1.49999774" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164a3a73cf226cb">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="4.67480469 0.00712585449 -4.89050293" rotation="0 179.803741 0" scale="1.49999762 1.50000036 1.49999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="164a3a73cf226cc">
+      <ECVegetation key="trees/shrub_rice/shrub_rice_a"/>
+      <ECTransform position="-4.67480469 0 4.89050293" rotation="0 179.803741 0" scale="1.49999809 1.50000036 1.49999809" pivot="0 0 0"/>
+      <ECTerrainClamp active="true" clamp_to_sea_level="false" terrain_oriented="false" ignore_low_frequency="false"/>
+    </entity>
+    <entity id="166d4e7d9d23983" name="Audio">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="166d4e7fbfa3984">
+      <ECSoundMarker key="Sound_Environment_Rice_Fields"/>
+      <ECTransform position="0.652061582 -1.90734863e-06 -0.364659041" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="166d4e7d9d23983">
+        <to id="166d4e7fbfa3984"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

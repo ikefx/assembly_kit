@@ -1,0 +1,407 @@
+victory_objectives
+{
+	
+//** SINGLE PLAYER **
+	
+	//** MAIN - HAN CHINESE **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction all;
+		subculture 3k_main_chinese;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** YTR - YELLOW TURBAN **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction all;
+		subculture 3k_main_subculture_yellow_turban;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** DLC05 - BANDITS **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction all;
+		subculture 3k_dlc05_subculture_bandits;
+		
+		// NORMAL CAMPAIGN
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+			
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** DLC06 - NANMAN **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction all;
+		subculture 3k_dlc06_subculture_nanman;
+		
+		// NORMAL CAMPAIGN -- Handled in script script\campaign\_shared\dlc06_nanman_shared_progression_events.lua.
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		// ULTIMATE CAMPAIGN
+ 		mission
+		{
+			victory_type 3k_main_victory_type_ultimate;
+			key 3k_main_ultimate_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 180;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	//** DLC06 - NANMAN - King Shamoke **
+	victory_objective
+	{
+		campaign_type sp_normal;
+		faction 3k_dlc06_faction_nanman_king_shamoke;
+		
+		// NORMAL CAMPAIGN - EMPEROR VICTORY
+		mission
+		{
+			victory_type 3k_main_victory_type_short;
+			key 3k_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 95;					
+				}
+			
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+//** MULTIPLAYER  **
+	victory_objective
+	{
+		campaign_type mp_vs_normal;
+		faction all;
+		
+		//** HEAD-TO-HEAD VERSUS **
+		mission
+		{
+			
+			victory_type 3k_main_victory_type_mp_versus;
+			key 3k_main_mp_versus_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					
+				}
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+					invert;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+		
+		//** CO-OP **
+		mission
+		{
+			victory_type 3k_main_victory_type_mp_coop;
+			key 3k_main_mp_coop_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type BECOME_WORLD_LEADER;
+					treaty_component_set 3k_main_objective_coop;
+				}				
+				
+				objective
+				{
+					type DESTROY_ALL_WORLD_LEADERS;	
+					treaty_component_set 3k_main_objective_coop;
+				}
+				
+				objective
+				{
+					type HAVE_DIPLOMATIC_RELATIONSHIP;
+					treaty_component_set 3k_main_objective_coop;
+					all_human_players;
+				}
+				
+				//
+				
+				payload
+				{
+					game_victory;
+				}
+			}
+		}	
+	}	
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="35">
+  <entities>
+    <entity id="159263b66c09da2">
+      <ECNoGoRegion/>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="-8"/>
+          <point x="9" y="-8"/>
+          <point x="9" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="159263b74299da3">
+      <ECNoGoRegion/>
+      <ECTransform position="23 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="-8"/>
+          <point x="9" y="-8"/>
+          <point x="9" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15f1026608801ae">
+      <ECTerrainHole procedural_exclusion_zone="true" procedural_exclusion_zone_margin="5"/>
+      <ECTransform position="8 0.100000001 -8.00000095" rotation="0 180 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="8" y="-7"/>
+          <point x="8" y="-1"/>
+          <point x="-24" y="-1"/>
+          <point x="-24" y="-7"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15f10272b9f01b1">
+      <ECGoRegion/>
+      <ECTransform position="9 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="0" y="-8"/>
+          <point x="14" y="-8"/>
+          <point x="14" y="0"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+    <entity id="15f33fac41908e8">
+      <ECBuilding key="3k_citycanal_straightbridgenogo" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8 0 -7.99999809" rotation="0 -90 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citycanal_straightbridgenogo"/>
+    </entity>
+    <entity id="15f34b25e64891d">
+      <ECBuilding key="3k_citycanal_straights" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="8 3.81469727e-06 9.53674146e-07" rotation="0 90 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citycanal_straights"/>
+    </entity>
+    <entity id="15f34b28e22891f">
+      <ECBuilding key="3k_citycanal_straights" damage="0" indestructible="true" toggleable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false" height_map_modification="Maximum"/>
+      <ECMeshRenderSettings inherit_from_parent="false" cast_shadow="true" alpha="1" tint_colour="255 255 255 255" set_tint_colour_from_colour_overlay="false" faction_colour="255 255 255 255"/>
+      <ECTransform position="32 3.81469727e-06 -1.13686804e-13" rotation="0 90 0" scale="0.999999702 1 0.999999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false"/>
+      <ECPrefabOverride enabled="false" id="3k_citycanal_straights"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

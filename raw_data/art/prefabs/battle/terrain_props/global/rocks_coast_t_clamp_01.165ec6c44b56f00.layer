@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="33">
+  <entities>
+    <entity id="165ec6cce046f02" name="nogo">
+      <ECLayerInternal/>
+      <ECLayer/>
+      <ECLayerExport export="true" buildings_have_linked_destruction="false"/>
+      <ECLayerExportTags tags=""/>
+    </entity>
+    <entity id="165ec6d1d726f03">
+      <ECNoGoRegion/>
+      <ECTransform position="4.37857389 0 -1.37963033" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTransform2D/>
+      <ECPolyline>
+        <polyline closed="true">
+          <point x="0" y="0"/>
+          <point x="-2.24330115" y="-4.84556866"/>
+          <point x="-4.76295233" y="-4.66816807"/>
+          <point x="-8.81285858" y="-0.494680405"/>
+          <point x="-7.730124" y="5.55300903"/>
+          <point x="-1.70824695" y="9.67285633"/>
+          <point x="0.618368626" y="7.42132473"/>
+        </polyline>
+      </ECPolyline>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="165ec6cce046f02">
+        <to id="165ec6d1d726f03"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

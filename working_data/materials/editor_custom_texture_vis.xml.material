@@ -1,0 +1,18 @@
+<material>
+ <name>editor_custom_texture_vis.xml</name>
+ <shader>shaders/editor_custom_texture_visualizer.xml.shader</shader>
+ <sort_override>255</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">s_xml_editor_vis</slot>
+   <source>commontextures/default_white.dds</source>
+  </texture>
+ </textures>
+ <params>
+  <param>
+   <name>alpha</name>
+   <type>float</type>
+   <value>0</value>
+  </param>
+ </params>
+</material>

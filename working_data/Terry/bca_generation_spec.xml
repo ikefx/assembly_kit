@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<global 
+    deployment_min_area="1" 
+    deployment_split_width="1" 
+    deployment_coarseness="0.05"
+    map_border_for_outfield="32"
+    delete_invalid="true"
+  />
+  
+	<!-- SETTLEMENTS are hand placed. -->
+	
+	<bca type="land_ambush" boundary="6" respect_nogo="1">
+		<infield>
+			hills_arid_infield_large/8x4_a
+			desert_dunes_infield/8x8_a
+			hills_forest_dense_infield_large/6x4_a/forest0
+			hills_forest_dense_infield_large/8x4_a/forest0
+			hills_forest_dense_infield_large/8x6_a/forest0
+			hills_forest_dense_infield_large/8x8_a/forest0
+			hills_forest_light_infield_large/6x4_a/forest0
+			hills_forest_light_infield_large/6x4_b/forest0
+			hills_forest_light_infield_large/6x4_c/forest0
+			hills_forest_light_infield_large/8x4_a/forest0
+			hills_forest_light_infield_large/8x4_b/forest0
+			hills_forest_light_infield_large/8x4_c/forest0
+			plains_forest_dense_infield_large/6x4_a/forest0
+			plains_forest_dense_infield_large/6x4_b/forest0
+			plains_forest_dense_infield_large/6x4_c/forest0
+			plains_forest_dense_infield_large/8x4_a/forest0
+			plains_forest_light_infield_large/6x4_a/forest0
+			plains_forest_light_infield_large/6x4_b/forest0
+			plains_forest_light_infield_large/6x4_c/forest0
+			valleys_forest_light_infield_large/6x4_a/forest0
+			valleys_forest_light_infield_large/6x4_b/forest0
+			valleys_forest_light_infield_large/6x4_c/forest0
+			valleys_forest_light_infield_large/8x4_a/forest0
+			valleys_forest_light_infield_large/8x4_b/forest0
+			valleys_forest_light_infield_large/8x4_c/forest0			
+			hills_forest_dense_infield_large/6x4_a/forest1
+			hills_forest_dense_infield_large/8x4_a/forest1
+			hills_forest_dense_infield_large/8x6_a/forest1
+			hills_forest_dense_infield_large/8x8_a/forest1
+			hills_forest_light_infield_large/6x4_a/forest1
+			hills_forest_light_infield_large/6x4_b/forest1
+			hills_forest_light_infield_large/6x4_c/forest1
+			hills_forest_light_infield_large/8x4_a/forest1
+			hills_forest_light_infield_large/8x4_b/forest1
+			hills_forest_light_infield_large/8x4_c/forest1
+			plains_forest_dense_infield_large/6x4_a/forest1
+			plains_forest_dense_infield_large/6x4_b/forest1
+			plains_forest_dense_infield_large/6x4_c/forest1
+			plains_forest_dense_infield_large/8x4_a/forest1
+			plains_forest_light_infield_large/6x4_a/forest1
+			plains_forest_light_infield_large/6x4_b/forest1
+			plains_forest_light_infield_large/6x4_c/forest1
+			valleys_forest_light_infield_large/6x4_a/forest1
+			valleys_forest_light_infield_large/6x4_b/forest1
+			valleys_forest_light_infield_large/6x4_c/forest1
+			valleys_forest_light_infield_large/8x4_a/forest1
+			valleys_forest_light_infield_large/8x4_b/forest1
+			valleys_forest_light_infield_large/8x4_c/forest1			
+			hills_grass_infield_large/6x4_a
+			hills_grass_infield_large/6x4_b
+			hills_grass_infield_large/6x4_c
+			hills_grass_infield_large/8x4_a
+			hills_grass_infield_large/8x4_b
+			hills_grass_infield_large/8x4_c
+			valleys_grass_infield_large/6x4_a
+			valleys_grass_infield_large/6x4_b
+			valleys_grass_infield_large/6x4_c
+			valleys_grass_infield_large/8x4_a
+			valleys_grass_infield_large/8x4_b
+			valleys_grass_infield_large/8x4_c
+		</infield>
+		<infield_restriction>
+			settlement_cities
+			settlement_ports
+			resource
+		</infield_restriction>		
+	</bca>
+
+	
+
+	<!-- For debugging a single catchment area -->
+	<!-- <debug x="82" y="94" config="0" alliance="-1" /> -->
+	<!-- If you don't want your custom catchments to be removed, make sure the Procedural flag is unticked -->
+	<!-- Note that bca infield can contain either a tile variation path, a tile path, or a tile set name.-->
+
+<!-- Uncomment when you want to generate.
+	<bca type="land_ambush" boundary="2">
+		<infield>
+		</infield>
+	</bca>
+	
+	<bca type="settlement_standard" boundary="3">
+		<infield>
+			settlement_cities
+			settlement_ports
+			settlement_rivers
+			settlement_unique
+		</infield>
+	</bca>
+	
+	<bca type="settlement_unfortified" boundary="3">
+		<infield>
+			resource
+		</infield>
+	</bca>
+
+	<bca type="settlement_sally" boundary="2">
+		<infield>
+			
+		</infield>
+	</bca>
+
+	<bca type="settlement_relief" boundary="2">
+		<infield>
+			
+		</infield>
+	</bca>
+
+	<bca type="land_normal" boundary="4">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="land_bridge" boundary="1">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="unfortified_port" boundary="2">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="town_normal" boundary="2">
+		<infield>
+
+		</infield>
+	</bca>
+
+	<bca type="naval_normal" boundary="2">
+		<infield>
+
+		</infield>
+	</bca>
+-->
+</root>
